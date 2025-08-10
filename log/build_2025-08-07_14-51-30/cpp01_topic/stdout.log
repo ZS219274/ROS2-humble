@@ -1,0 +1,8 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/demo01_talker_stu.dir/src/demo01_talker_stu.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo01_listener_stu.dir/src/demo01_listener_stu.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_listener_str.dir/src/demo01_listener_str.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[ 62%] Built target demo01_talker_str
+[ 75%] [32m[1mLinking CXX executable demo01_listener_str[0m
+[ 75%] Built target demo01_listener_str

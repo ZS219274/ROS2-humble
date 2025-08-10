@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_param_client[0m
+[ 33%] Built target demo01_param_server
+[ 66%] Built target demo01_param
+[ 83%] [32mBuilding CXX object CMakeFiles/demo01_param_client.dir/src/demo01_param_client.cpp.o[0m
+[01m[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:48:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ParamClient[m[K’ {aka ‘[01m[Kclass ParamClient[m[K’} has no member named ‘[01m[Kdeclare_params[m[K’; did you mean ‘[01m[Kdel_params[m[K’?
+   48 |     node->[01;31m[Kdeclare_params[m[K();
+      |           [01;31m[K^~~~~~~~~~~~~~[m[K
+      |           [32m[Kdel_params[m[K
+gmake[2]: *** [CMakeFiles/demo01_param_client.dir/build.make:76: CMakeFiles/demo01_param_client.dir/src/demo01_param_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo01_param_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

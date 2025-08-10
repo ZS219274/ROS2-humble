@@ -1,0 +1,3 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/demo01_talker_stu.dir/src/demo01_talker_stu.cpp.o[0m
+[ 50%] Built target demo01_listener_str
+[ 83%] Built target demo01_talker_str

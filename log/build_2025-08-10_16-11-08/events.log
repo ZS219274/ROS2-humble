@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.002408] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.002488] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.002548] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.002568] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.002652] (cpp04_param) JobQueued: {'identifier': 'cpp04_param', 'dependencies': OrderedDict()}
+[0.002676] (cpp04_param) JobStarted: {'identifier': 'cpp04_param'}
+[0.039885] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'cmake'}
+[0.044719] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'build'}
+[0.045778] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ws01_plubing/build/cpp04_param', '--', '-j12', '-l12'], 'cwd': '/home/ros2/ws01_plubing/build/cpp04_param', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros2'), ('SSH_CLIENT', '192.168.174.1 59667 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ae5e87fe-4c0b-4991-a99d-1fedf0eb8928.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5bad13607a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/ws01_plubing/build/cpp04_param'), ('SSH_CONNECTION', '192.168.174.1 59667 192.168.174.156 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099729] (-) TimerEvent: {}
+[0.200413] (-) TimerEvent: {}
+[0.300889] (-) TimerEvent: {}
+[0.401380] (-) TimerEvent: {}
+[0.502762] (-) TimerEvent: {}
+[0.530218] (cpp04_param) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_param_client\x1b[0m\n'}
+[0.542282] (cpp04_param) StdoutLine: {'line': b'[ 33%] Built target demo01_param_server\n'}
+[0.560972] (cpp04_param) StdoutLine: {'line': b'[ 66%] Built target demo01_param\n'}
+[0.574257] (cpp04_param) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/demo01_param_client.dir/src/demo01_param_client.cpp.o\x1b[0m\n'}
+[0.602957] (-) TimerEvent: {}
+[0.703780] (-) TimerEvent: {}
+[0.805018] (-) TimerEvent: {}
+[0.907025] (-) TimerEvent: {}
+[1.008236] (-) TimerEvent: {}
+[1.108843] (-) TimerEvent: {}
+[1.209416] (-) TimerEvent: {}
+[1.310065] (-) TimerEvent: {}
+[1.410684] (-) TimerEvent: {}
+[1.511357] (-) TimerEvent: {}
+[1.612076] (-) TimerEvent: {}
+[1.712694] (-) TimerEvent: {}
+[1.813419] (-) TimerEvent: {}
+[1.914196] (-) TimerEvent: {}
+[2.015005] (-) TimerEvent: {}
+[2.118656] (-) TimerEvent: {}
+[2.219376] (-) TimerEvent: {}
+[2.320204] (-) TimerEvent: {}
+[2.421087] (-) TimerEvent: {}
+[2.522637] (-) TimerEvent: {}
+[2.624801] (-) TimerEvent: {}
+[2.725334] (-) TimerEvent: {}
+[2.825954] (-) TimerEvent: {}
+[2.926646] (-) TimerEvent: {}
+[3.027272] (-) TimerEvent: {}
+[3.127969] (-) TimerEvent: {}
+[3.228501] (-) TimerEvent: {}
+[3.329114] (-) TimerEvent: {}
+[3.429616] (-) TimerEvent: {}
+[3.530051] (-) TimerEvent: {}
+[3.630658] (-) TimerEvent: {}
+[3.731310] (-) TimerEvent: {}
+[3.832075] (-) TimerEvent: {}
+[3.932959] (-) TimerEvent: {}
+[4.033785] (-) TimerEvent: {}
+[4.134223] (-) TimerEvent: {}
+[4.234877] (-) TimerEvent: {}
+[4.335502] (-) TimerEvent: {}
+[4.436123] (-) TimerEvent: {}
+[4.536667] (-) TimerEvent: {}
+[4.637329] (-) TimerEvent: {}
+[4.737929] (-) TimerEvent: {}
+[4.839123] (-) TimerEvent: {}
+[4.940149] (-) TimerEvent: {}
+[5.040680] (-) TimerEvent: {}
+[5.141129] (-) TimerEvent: {}
+[5.241755] (-) TimerEvent: {}
+[5.342336] (-) TimerEvent: {}
+[5.442903] (-) TimerEvent: {}
+[5.527779] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[5.528323] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[5.528564] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[5.528857] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.529363] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.529500] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.529782] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.529891] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.529996] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.530087] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.530183] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.530270] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:1\x1b[m\x1b[K:\n'}
+[5.530359] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ParamClient::get_params()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.530449] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:40:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects a matching \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 argument [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.530651] (cpp04_param) StderrLine: {'line': b'   40 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe6\x98\xaf\xe5\x90\xa6\xe5\xad\x98\xe5\x9c\xa8sex\xe5\x8f\x82\xe6\x95\xb0: %s, %s"\x1b[m\x1b[K, client_->has_parameter("sex") ? "\xe5\xad\x98\xe5\x9c\xa8" : "\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8");\n'}
+[5.530774] (cpp04_param) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.530865] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:40:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[5.530983] (cpp04_param) StderrLine: {'line': b'   40 |         RCLCPP_INFO(this->get_logger(), "\xe6\x98\xaf\xe5\x90\xa6\xe5\xad\x98\xe5\x9c\xa8sex\xe5\x8f\x82\xe6\x95\xb0: %s, \x1b[01;36m\x1b[K%s\x1b[m\x1b[K", client_->has_parameter("sex") ? "\xe5\xad\x98\xe5\x9c\xa8" : "\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8");\n'}
+[5.531111] (cpp04_param) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[5.531200] (cpp04_param) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[5.531287] (cpp04_param) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[5.543189] (-) TimerEvent: {}
+[5.643920] (-) TimerEvent: {}
+[5.744701] (-) TimerEvent: {}
+[5.845183] (-) TimerEvent: {}
+[5.945644] (-) TimerEvent: {}
+[6.046158] (-) TimerEvent: {}
+[6.146705] (-) TimerEvent: {}
+[6.247195] (-) TimerEvent: {}
+[6.347771] (-) TimerEvent: {}
+[6.448375] (-) TimerEvent: {}
+[6.548977] (-) TimerEvent: {}
+[6.649485] (-) TimerEvent: {}
+[6.750137] (-) TimerEvent: {}
+[6.850859] (-) TimerEvent: {}
+[6.951582] (-) TimerEvent: {}
+[7.052096] (-) TimerEvent: {}
+[7.152611] (-) TimerEvent: {}
+[7.224940] (cpp04_param) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_param_client\x1b[0m\n'}
+[7.253077] (-) TimerEvent: {}
+[7.353549] (-) TimerEvent: {}
+[7.454311] (-) TimerEvent: {}
+[7.555116] (-) TimerEvent: {}
+[7.619540] (cpp04_param) StdoutLine: {'line': b'[100%] Built target demo01_param_client\n'}
+[7.645928] (cpp04_param) CommandEnded: {'returncode': 0}
+[7.650174] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'install'}
+[7.655362] (-) TimerEvent: {}
+[7.674428] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ws01_plubing/build/cpp04_param'], 'cwd': '/home/ros2/ws01_plubing/build/cpp04_param', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros2'), ('SSH_CLIENT', '192.168.174.1 59667 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ae5e87fe-4c0b-4991-a99d-1fedf0eb8928.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5bad13607a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/ws01_plubing/build/cpp04_param'), ('SSH_CONNECTION', '192.168.174.1 59667 192.168.174.156 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.696827] (cpp04_param) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.703518] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param\n'}
+[7.707882] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_server\n'}
+[7.710576] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_client\n'}
+[7.732578] (cpp04_param) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_client" to ""\n'}
+[7.732951] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param\n'}
+[7.733250] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param\n'}
+[7.733371] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh\n'}
+[7.733416] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv\n'}
+[7.733458] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/path.sh\n'}
+[7.733583] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/path.dsv\n'}
+[7.733652] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.bash\n'}
+[7.733696] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.sh\n'}
+[7.733754] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.zsh\n'}
+[7.733941] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.dsv\n'}
+[7.734122] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/package.dsv\n'}
+[7.735878] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param\n'}
+[7.736379] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake\n'}
+[7.736643] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake\n'}
+[7.736739] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/package.xml\n'}
+[7.741603] (cpp04_param) CommandEnded: {'returncode': 0}
+[7.756160] (-) TimerEvent: {}
+[7.791608] (cpp04_param) JobEnded: {'identifier': 'cpp04_param', 'rc': 0}
+[7.795905] (-) EventReactorShutdown: {}

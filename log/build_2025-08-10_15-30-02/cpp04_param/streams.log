@@ -1,0 +1,32 @@
+[0.070s] Invoking command in '/home/ros2/ws01_plubing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp04_param -- -j12 -l12
+[0.407s] [ 16%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[0.412s] [ 50%] Built target demo01_param
+[0.416s] [ 66%] [32mBuilding CXX object CMakeFiles/demo01_param_client.dir/src/demo01_param_client.cpp.o[0m
+[8.340s] [ 83%] [32m[1mLinking CXX executable demo01_param_server[0m
+[9.247s] [ 83%] Built target demo01_param_server
+[9.279s] [100%] [32m[1mLinking CXX executable demo01_param_client[0m
+[9.697s] [100%] Built target demo01_param_client
+[9.715s] Invoked command in '/home/ros2/ws01_plubing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp04_param -- -j12 -l12
+[9.735s] Invoking command in '/home/ros2/ws01_plubing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plubing/build/cpp04_param
+[9.751s] -- Install configuration: ""
+[9.757s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param
+[9.760s] -- Installing: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[9.769s] -- Set runtime path of "/home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_server" to ""
+[9.770s] -- Installing: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_client
+[9.785s] -- Set runtime path of "/home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_client" to ""
+[9.785s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[9.785s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[9.785s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[9.786s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[9.786s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[9.786s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[9.786s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[9.786s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[9.786s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[9.786s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[9.786s] -- Installing: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/package.dsv
+[9.788s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[9.788s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[9.788s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[9.789s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/package.xml
+[9.793s] Invoked command in '/home/ros2/ws01_plubing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plubing/build/cpp04_param

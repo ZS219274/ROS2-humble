@@ -1,0 +1,51 @@
+[0.062s] Invoking command in '/home/ros2/ws01_plubing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp04_param -- -j12 -l12
+[0.528s] [35m[1mConsolidate compiler generated dependencies of target demo01_param_client[0m
+[0.540s] [ 33%] Built target demo01_param_server
+[0.558s] [ 66%] Built target demo01_param
+[0.572s] [ 83%] [32mBuilding CXX object CMakeFiles/demo01_param_client.dir/src/demo01_param_client.cpp.o[0m
+[5.525s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.528s]                  from [01m[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:1[m[K:
+[5.528s] [01m[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:[m[K In member function ‘[01m[Kvoid ParamClient::get_params()[m[K’:
+[5.528s] [01m[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:40:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects a matching ‘[01m[Kchar*[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.528s]    40 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"是否存在sex参数: %s, %s"[m[K, client_->has_parameter("sex") ? "存在" : "不存在");
+[5.528s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.528s] [01m[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:40:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.528s]    40 |         RCLCPP_INFO(this->get_logger(), "是否存在sex参数: %s, [01;36m[K%s[m[K", client_->has_parameter("sex") ? "存在" : "不存在");
+[5.528s]       |                                                               [01;36m[K~^[m[K
+[5.529s]       |                                                                [01;36m[K|[m[K
+[5.529s]       |                                                                [01;36m[Kchar*[m[K
+[7.222s] [100%] [32m[1mLinking CXX executable demo01_param_client[0m
+[7.617s] [100%] Built target demo01_param_client
+[7.643s] Invoked command in '/home/ros2/ws01_plubing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp04_param -- -j12 -l12
+[7.673s] Invoking command in '/home/ros2/ws01_plubing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plubing/build/cpp04_param
+[7.694s] -- Install configuration: ""
+[7.701s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param
+[7.705s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[7.708s] -- Installing: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_client
+[7.730s] -- Set runtime path of "/home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_client" to ""
+[7.730s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[7.731s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[7.731s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[7.731s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[7.731s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[7.731s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[7.731s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[7.731s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[7.731s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[7.731s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[7.731s] -- Installing: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/package.dsv
+[7.734s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[7.734s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[7.734s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[7.734s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/package.xml
+[7.739s] Invoked command in '/home/ros2/ws01_plubing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plubing/build/cpp04_param

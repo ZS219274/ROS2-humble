@@ -1,0 +1,47 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_param_client[0m
+[ 33%] Built target demo01_param_server
+[ 66%] Built target demo01_param
+[ 83%] [32mBuilding CXX object CMakeFiles/demo01_param_client.dir/src/demo01_param_client.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:1[m[K:
+[01m[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:[m[K In member function ‘[01m[Kvoid ParamClient::get_params()[m[K’:
+[01m[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:40:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects a matching ‘[01m[Kchar*[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   40 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"是否存在sex参数: %s, %s"[m[K, client_->has_parameter("sex") ? "存在" : "不存在");
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ws01_plubing/src/cpp04_param/src/demo01_param_client.cpp:40:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   40 |         RCLCPP_INFO(this->get_logger(), "是否存在sex参数: %s, [01;36m[K%s[m[K", client_->has_parameter("sex") ? "存在" : "不存在");
+      |                                                               [01;36m[K~^[m[K
+      |                                                                [01;36m[K|[m[K
+      |                                                                [01;36m[Kchar*[m[K
+[100%] [32m[1mLinking CXX executable demo01_param_client[0m
+[100%] Built target demo01_param_client
+-- Install configuration: ""
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+-- Installing: /home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_client
+-- Set runtime path of "/home/ros2/ws01_plubing/install/cpp04_param/lib/cpp04_param/demo01_param_client" to ""
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/path.sh
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.bash
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.sh
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+-- Installing: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/package.dsv
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+-- Up-to-date: /home/ros2/ws01_plubing/install/cpp04_param/share/cpp04_param/package.xml

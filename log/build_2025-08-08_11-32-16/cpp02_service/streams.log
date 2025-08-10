@@ -1,0 +1,26 @@
+[0.041s] Invoking command in '/home/ros2/ws01_plubing/build/cpp02_service': AMENT_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws01_plubing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp02_service -- -j12 -l12
+[0.263s] [35m[1mConsolidate compiler generated dependencies of target demo01_service[0m
+[0.293s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_service.dir/src/demo01_service.cpp.o[0m
+[4.449s] [100%] [32m[1mLinking CXX executable demo01_service[0m
+[4.900s] [100%] Built target demo01_service
+[4.920s] Invoked command in '/home/ros2/ws01_plubing/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws01_plubing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp02_service -- -j12 -l12
+[4.938s] Invoking command in '/home/ros2/ws01_plubing/build/cpp02_service': AMENT_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws01_plubing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ws01_plubing/build/cpp02_service
+[4.957s] -- Install configuration: ""
+[4.963s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/lib/cpp02_service/demo01_service
+[4.965s] -- Set runtime path of "/home/ros2/ws01_plubing/install/cpp02_service/lib/cpp02_service/demo01_service" to ""
+[4.965s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[4.966s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[4.966s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[4.967s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[4.967s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/path.sh
+[4.967s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[4.967s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.bash
+[4.967s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.sh
+[4.967s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[4.968s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[4.968s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/package.dsv
+[4.968s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[4.969s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[4.969s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[4.969s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/package.xml
+[4.971s] Invoked command in '/home/ros2/ws01_plubing/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws01_plubing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ws01_plubing/build/cpp02_service

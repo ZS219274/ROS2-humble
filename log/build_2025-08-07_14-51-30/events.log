@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000488] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/ros2/ws01_plubing/install/base_interfaces_demo')])}
+[0.000550] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.019218] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.020635] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.071950] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ws01_plubing/build/cpp01_topic', '--clean-first', '--', '-j12', '-l12'], 'cwd': '/home/ros2/ws01_plubing/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros2'), ('SSH_CLIENT', '192.168.174.1 50144 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/ws01_plubing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-1e3feb26-dc73-4c6f-810e-a93014782207.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ros2/ws01_plubing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5bad13607a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ros2/ws01_plubing/install/cpp01_topic:/home/ros2/ws01_plubing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/ws01_plubing/build/cpp01_topic'), ('SSH_CONNECTION', '192.168.174.1 50144 192.168.174.156 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ws01_plubing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.098863] (-) TimerEvent: {}
+[0.199492] (-) TimerEvent: {}
+[0.296582] (cpp01_topic) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/demo01_talker_stu.dir/src/demo01_talker_stu.cpp.o\x1b[0m\n'}
+[0.297072] (cpp01_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo01_listener_stu.dir/src/demo01_listener_stu.cpp.o\x1b[0m\n'}
+[0.299600] (-) TimerEvent: {}
+[0.301950] (cpp01_topic) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o\x1b[0m\n'}
+[0.304153] (cpp01_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_listener_str.dir/src/demo01_listener_str.cpp.o\x1b[0m\n'}
+[0.399797] (-) TimerEvent: {}
+[0.500328] (-) TimerEvent: {}
+[0.601142] (-) TimerEvent: {}
+[0.645730] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plubing/src/cpp01_topic/src/demo01_listener_stu.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kbase_interfaces_demo/msg/student.hpp: No such file or directory\n'}
+[0.646010] (cpp01_topic) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"base_interfaces_demo/msg/student.hpp"\x1b[m\x1b[K\n'}
+[0.646086] (cpp01_topic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.646147] (cpp01_topic) StderrLine: {'line': b'compilation terminated.\n'}
+[0.649841] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_listener_stu.dir/build.make:76: CMakeFiles/demo01_listener_stu.dir/src/demo01_listener_stu.cpp.o] Error 1\n'}
+[0.650180] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/demo01_listener_stu.dir/all] Error 2\n'}
+[0.650394] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.653957] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plubing/src/cpp01_topic/src/demo01_talker_stu.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kbase_interfaces_demo/msg/student.hpp: No such file or directory\n'}
+[0.654121] (cpp01_topic) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"base_interfaces_demo/msg/student.hpp"\x1b[m\x1b[K\n'}
+[0.654172] (cpp01_topic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.654250] (cpp01_topic) StderrLine: {'line': b'compilation terminated.\n'}
+[0.657323] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_talker_stu.dir/build.make:76: CMakeFiles/demo01_talker_stu.dir/src/demo01_talker_stu.cpp.o] Error 1\n'}
+[0.657776] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo01_talker_stu.dir/all] Error 2\n'}
+[0.701469] (-) TimerEvent: {}
+[0.802083] (-) TimerEvent: {}
+[0.902673] (-) TimerEvent: {}
+[1.003228] (-) TimerEvent: {}
+[1.103764] (-) TimerEvent: {}
+[1.204324] (-) TimerEvent: {}
+[1.305048] (-) TimerEvent: {}
+[1.405725] (-) TimerEvent: {}
+[1.506262] (-) TimerEvent: {}
+[1.606893] (-) TimerEvent: {}
+[1.707456] (-) TimerEvent: {}
+[1.808089] (-) TimerEvent: {}
+[1.908697] (-) TimerEvent: {}
+[2.009381] (-) TimerEvent: {}
+[2.110145] (-) TimerEvent: {}
+[2.210827] (-) TimerEvent: {}
+[2.311377] (-) TimerEvent: {}
+[2.412166] (-) TimerEvent: {}
+[2.512985] (-) TimerEvent: {}
+[2.613591] (-) TimerEvent: {}
+[2.714143] (-) TimerEvent: {}
+[2.814824] (-) TimerEvent: {}
+[2.915326] (-) TimerEvent: {}
+[3.015813] (-) TimerEvent: {}
+[3.116388] (-) TimerEvent: {}
+[3.216997] (-) TimerEvent: {}
+[3.317610] (-) TimerEvent: {}
+[3.418196] (-) TimerEvent: {}
+[3.518822] (-) TimerEvent: {}
+[3.619350] (-) TimerEvent: {}
+[3.719867] (-) TimerEvent: {}
+[3.820279] (-) TimerEvent: {}
+[3.920821] (-) TimerEvent: {}
+[4.021458] (-) TimerEvent: {}
+[4.121998] (-) TimerEvent: {}
+[4.222749] (-) TimerEvent: {}
+[4.323372] (-) TimerEvent: {}
+[4.423904] (-) TimerEvent: {}
+[4.524399] (-) TimerEvent: {}
+[4.624921] (-) TimerEvent: {}
+[4.725756] (-) TimerEvent: {}
+[4.826170] (-) TimerEvent: {}
+[4.926870] (-) TimerEvent: {}
+[5.027439] (-) TimerEvent: {}
+[5.128086] (-) TimerEvent: {}
+[5.228647] (-) TimerEvent: {}
+[5.329243] (-) TimerEvent: {}
+[5.429897] (-) TimerEvent: {}
+[5.530507] (-) TimerEvent: {}
+[5.631110] (-) TimerEvent: {}
+[5.731883] (-) TimerEvent: {}
+[5.832418] (-) TimerEvent: {}
+[5.932981] (-) TimerEvent: {}
+[6.033805] (-) TimerEvent: {}
+[6.134729] (-) TimerEvent: {}
+[6.235393] (-) TimerEvent: {}
+[6.336008] (-) TimerEvent: {}
+[6.436683] (-) TimerEvent: {}
+[6.537179] (-) TimerEvent: {}
+[6.637836] (-) TimerEvent: {}
+[6.738420] (-) TimerEvent: {}
+[6.838943] (-) TimerEvent: {}
+[6.939607] (-) TimerEvent: {}
+[7.028067] (cpp01_topic) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable demo01_talker_str\x1b[0m\n'}
+[7.039750] (-) TimerEvent: {}
+[7.140339] (-) TimerEvent: {}
+[7.240859] (-) TimerEvent: {}
+[7.284176] (cpp01_topic) StdoutLine: {'line': b'[ 62%] Built target demo01_talker_str\n'}
+[7.341365] (-) TimerEvent: {}
+[7.441921] (-) TimerEvent: {}
+[7.542650] (-) TimerEvent: {}
+[7.643228] (-) TimerEvent: {}
+[7.743833] (-) TimerEvent: {}
+[7.844493] (-) TimerEvent: {}
+[7.945098] (-) TimerEvent: {}
+[8.045716] (-) TimerEvent: {}
+[8.146259] (-) TimerEvent: {}
+[8.246922] (-) TimerEvent: {}
+[8.347558] (-) TimerEvent: {}
+[8.448119] (-) TimerEvent: {}
+[8.548813] (-) TimerEvent: {}
+[8.649364] (-) TimerEvent: {}
+[8.750432] (-) TimerEvent: {}
+[8.851255] (-) TimerEvent: {}
+[8.951851] (-) TimerEvent: {}
+[9.052507] (-) TimerEvent: {}
+[9.153130] (-) TimerEvent: {}
+[9.253759] (-) TimerEvent: {}
+[9.354401] (-) TimerEvent: {}
+[9.455123] (-) TimerEvent: {}
+[9.555748] (-) TimerEvent: {}
+[9.656331] (-) TimerEvent: {}
+[9.756847] (-) TimerEvent: {}
+[9.857472] (-) TimerEvent: {}
+[9.958043] (-) TimerEvent: {}
+[10.058681] (-) TimerEvent: {}
+[10.159350] (-) TimerEvent: {}
+[10.260073] (-) TimerEvent: {}
+[10.360665] (-) TimerEvent: {}
+[10.461077] (-) TimerEvent: {}
+[10.561719] (-) TimerEvent: {}
+[10.662147] (-) TimerEvent: {}
+[10.762799] (-) TimerEvent: {}
+[10.863454] (-) TimerEvent: {}
+[10.963964] (-) TimerEvent: {}
+[11.064636] (-) TimerEvent: {}
+[11.165292] (-) TimerEvent: {}
+[11.265867] (-) TimerEvent: {}
+[11.366417] (-) TimerEvent: {}
+[11.466971] (-) TimerEvent: {}
+[11.567602] (-) TimerEvent: {}
+[11.668245] (-) TimerEvent: {}
+[11.768776] (-) TimerEvent: {}
+[11.832165] (cpp01_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo01_listener_str\x1b[0m\n'}
+[11.869017] (-) TimerEvent: {}
+[11.969718] (-) TimerEvent: {}
+[12.070488] (-) TimerEvent: {}
+[12.171014] (-) TimerEvent: {}
+[12.232430] (cpp01_topic) StdoutLine: {'line': b'[ 75%] Built target demo01_listener_str\n'}
+[12.233966] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.238220] (cpp01_topic) CommandEnded: {'returncode': 2}
+[12.252548] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[12.263375] (-) EventReactorShutdown: {}

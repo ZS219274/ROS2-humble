@@ -1,0 +1,69 @@
+[0.027s] Invoking command in '/home/ros2/ws01_plubing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake /home/ros2/ws01_plubing/src/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/ros2/ws01_plubing/install/cpp02_service
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.242s] -- The CXX compiler identification is GNU 11.4.0
+[0.256s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.400s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.401s] -- Detecting C compile features
+[0.402s] -- Detecting C compile features - done
+[0.406s] -- Detecting CXX compiler ABI info
+[0.528s] -- Detecting CXX compiler ABI info - done
+[0.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.536s] -- Detecting CXX compile features
+[0.536s] -- Detecting CXX compile features - done
+[0.539s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.744s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.864s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.910s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.916s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.926s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.017s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.192s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.219s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.256s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.263s] -- Looking for pthread.h
+[1.374s] -- Looking for pthread.h - found
+[1.375s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.549s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.550s] -- Found Threads: TRUE  
+[1.597s] -- Found base_interfaces_demo: 0.0.0 (/home/ros2/ws01_plubing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[1.606s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.702s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.702s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/ws01_plubing/src/cpp02_service/include>
+[1.702s] -- Configured cppcheck exclude dirs and/or files: 
+[1.703s] -- Added test 'lint_cmake' to check CMake code style
+[1.704s] -- Added test 'uncrustify' to check C / C++ code style
+[1.704s] -- Configured uncrustify additional arguments: 
+[1.705s] -- Added test 'xmllint' to check XML markup files
+[1.707s] -- Configuring done
+[1.762s] -- Generating done
+[1.770s] -- Build files have been written to: /home/ros2/ws01_plubing/build/cpp02_service
+[1.781s] Invoked command in '/home/ros2/ws01_plubing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake /home/ros2/ws01_plubing/src/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/ros2/ws01_plubing/install/cpp02_service
+[1.785s] Invoking command in '/home/ros2/ws01_plubing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp02_service -- -j12 -l12
+[1.875s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_service.dir/src/demo01_service.cpp.o[0m
+[1.948s] [100%] [32m[1mLinking CXX executable demo01_service[0m
+[2.068s] [100%] Built target demo01_service
+[2.086s] Invoked command in '/home/ros2/ws01_plubing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp02_service -- -j12 -l12
+[2.135s] Invoking command in '/home/ros2/ws01_plubing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plubing/build/cpp02_service
+[2.153s] -- Install configuration: ""
+[2.154s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/lib/cpp02_service/demo01_service
+[2.154s] -- Set runtime path of "/home/ros2/ws01_plubing/install/cpp02_service/lib/cpp02_service/demo01_service" to ""
+[2.155s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[2.155s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[2.158s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[2.159s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[2.159s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/path.sh
+[2.159s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[2.159s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.bash
+[2.160s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.sh
+[2.160s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[2.160s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[2.160s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/package.dsv
+[2.161s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[2.161s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[2.162s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[2.162s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/package.xml
+[2.165s] Invoked command in '/home/ros2/ws01_plubing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plubing/build/cpp02_service

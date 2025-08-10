@@ -1,0 +1,22 @@
+[0.020s] Invoking command in '/home/ros2/ws01_plubing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp01_topic -- -j12 -l12
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target demo01_listener_str[0m
+[0.112s] [ 12%] [32mBuilding CXX object CMakeFiles/demo01_listener_stu.dir/src/demo01_listener_stu.cpp.o[0m
+[0.114s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_talker_stu.dir/src/demo01_talker_stu.cpp.o[0m
+[0.122s] [ 50%] Built target demo01_talker_str
+[0.127s] [ 75%] Built target demo01_listener_str
+[0.402s] [01m[K/home/ros2/ws01_plubing/src/cpp01_topic/src/demo01_listener_stu.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfaces_demo/msg/student.hpp: No such file or directory
+[0.403s]     2 | #include [01;31m[K"base_interfaces_demo/msg/student.hpp"[m[K
+[0.403s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.403s] compilation terminated.
+[0.406s] gmake[2]: *** [CMakeFiles/demo01_listener_stu.dir/build.make:76: CMakeFiles/demo01_listener_stu.dir/src/demo01_listener_stu.cpp.o] Error 1
+[0.407s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/demo01_listener_stu.dir/all] Error 2
+[0.407s] gmake[1]: *** Waiting for unfinished jobs....
+[0.409s] [01m[K/home/ros2/ws01_plubing/src/cpp01_topic/src/demo01_talker_stu.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfaces_demo/msg/student.hpp: No such file or directory
+[0.409s]     2 | #include [01;31m[K"base_interfaces_demo/msg/student.hpp"[m[K
+[0.409s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.409s] compilation terminated.
+[0.412s] gmake[2]: *** [CMakeFiles/demo01_talker_stu.dir/build.make:76: CMakeFiles/demo01_talker_stu.dir/src/demo01_talker_stu.cpp.o] Error 1
+[0.412s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo01_talker_stu.dir/all] Error 2
+[0.413s] gmake: *** [Makefile:146: all] Error 2
+[0.416s] Invoked command in '/home/ros2/ws01_plubing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp01_topic -- -j12 -l12

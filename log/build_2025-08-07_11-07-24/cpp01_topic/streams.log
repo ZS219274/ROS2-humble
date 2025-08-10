@@ -1,0 +1,41 @@
+[0.097s] Invoking command in '/home/ros2/ws01_plubing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp01_topic -- -j12 -l12
+[0.423s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.713s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.824s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.836s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.853s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.019s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.027s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.429s] -- Found base_interfaces_demo: 0.0.0 (/home/ros2/ws01_plubing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[1.435s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.570s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.570s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/ws01_plubing/src/cpp01_topic/include>
+[1.570s] -- Configured cppcheck exclude dirs and/or files: 
+[1.573s] -- Added test 'lint_cmake' to check CMake code style
+[1.575s] -- Added test 'uncrustify' to check C / C++ code style
+[1.575s] -- Configured uncrustify additional arguments: 
+[1.576s] -- Added test 'xmllint' to check XML markup files
+[1.582s] -- Configuring done
+[1.625s] -- Generating done
+[1.637s] -- Build files have been written to: /home/ros2/ws01_plubing/build/cpp01_topic
+[1.685s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[1.685s] [35m[1mConsolidate compiler generated dependencies of target demo01_listener_str[0m
+[1.702s] [ 16%] [32mBuilding CXX object CMakeFiles/demo01_talker_stu.dir/src/demo01_talker_stu.cpp.o[0m
+[1.714s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[1.714s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_listener_str.dir/src/demo01_listener_str.cpp.o[0m
+[2.066s] [01m[K/home/ros2/ws01_plubing/src/cpp01_topic/src/demo01_talker_stu.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfaces_demo/msg/student.hpp: No such file or directory
+[2.066s]     2 | #include [01;31m[K"base_interfaces_demo/msg/student.hpp"[m[K
+[2.066s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.066s] compilation terminated.
+[2.069s] gmake[2]: *** [CMakeFiles/demo01_talker_stu.dir/build.make:76: CMakeFiles/demo01_talker_stu.dir/src/demo01_talker_stu.cpp.o] Error 1
+[2.070s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo01_talker_stu.dir/all] Error 2
+[2.070s] gmake[1]: *** Waiting for unfinished jobs....
+[8.632s] [ 66%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[9.008s] [ 66%] Built target demo01_talker_str
+[12.858s] [ 83%] [32m[1mLinking CXX executable demo01_listener_str[0m
+[13.370s] [ 83%] Built target demo01_listener_str
+[13.372s] gmake: *** [Makefile:146: all] Error 2
+[13.379s] Invoked command in '/home/ros2/ws01_plubing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp01_topic -- -j12 -l12

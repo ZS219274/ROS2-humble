@@ -1,0 +1,37 @@
+[0.020s] Invoking command in '/home/ros2/ws01_plubing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp02_service:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp02_service --clean-first -- -j12 -l12
+[0.180s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.508s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.625s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.636s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.664s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.748s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.874s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.884s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.082s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.242s] -- Found base_interfaces_demo: 0.0.0 (/home/ros2/ws01_plubing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[1.252s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.385s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.385s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/ws01_plubing/src/cpp02_service/include>
+[1.385s] -- Configured cppcheck exclude dirs and/or files: 
+[1.388s] -- Added test 'lint_cmake' to check CMake code style
+[1.391s] -- Added test 'uncrustify' to check C / C++ code style
+[1.392s] -- Configured uncrustify additional arguments: 
+[1.393s] -- Added test 'xmllint' to check XML markup files
+[1.400s] -- Configuring done
+[1.404s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[1.404s]   Cannot find source file:
+[1.404s] 
+[1.404s]     src/demo01_service.cpp
+[1.404s] 
+[1.404s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.405s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.405s] 
+[1.405s] [0m
+[1.406s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[1.406s]   No SOURCES given to target: demo01_service
+[1.406s] 
+[1.406s] [0m
+[1.406s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.413s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.416s] Invoked command in '/home/ros2/ws01_plubing/build/cpp02_service' returned '2': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp02_service:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp02_service --clean-first -- -j12 -l12

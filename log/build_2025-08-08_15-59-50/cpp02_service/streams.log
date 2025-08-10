@@ -1,0 +1,28 @@
+[0.062s] Invoking command in '/home/ros2/ws01_plubing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp02_service:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp02_service -- -j12 -l12
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target demo01_client[0m
+[0.148s] [ 50%] Built target demo01_server
+[0.157s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_client.dir/src/demo01_client.cpp.o[0m
+[4.596s] [100%] [32m[1mLinking CXX executable demo01_client[0m
+[4.796s] [100%] Built target demo01_client
+[4.819s] Invoked command in '/home/ros2/ws01_plubing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp02_service:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/build/cpp02_service -- -j12 -l12
+[4.820s] Invoking command in '/home/ros2/ws01_plubing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp02_service:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plubing/build/cpp02_service
+[4.874s] -- Install configuration: ""
+[4.875s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/lib/cpp02_service/demo01_server
+[4.876s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/lib/cpp02_service/demo01_client
+[4.877s] -- Set runtime path of "/home/ros2/ws01_plubing/install/cpp02_service/lib/cpp02_service/demo01_client" to ""
+[4.878s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[4.878s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[4.878s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[4.878s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[4.879s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/path.sh
+[4.879s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[4.879s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.bash
+[4.879s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.sh
+[4.879s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[4.879s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[4.879s] -- Installing: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/package.dsv
+[4.879s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[4.879s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[4.880s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[4.880s] -- Up-to-date: /home/ros2/ws01_plubing/install/cpp02_service/share/cpp02_service/package.xml
+[4.884s] Invoked command in '/home/ros2/ws01_plubing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/install/base_interfaces_demo:/home/ros2/ws01_plubing/install/cpp02_service:/home/ros2/ws01_plubing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plubing/build/cpp02_service

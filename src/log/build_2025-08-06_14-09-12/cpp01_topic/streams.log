@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/home/ros2/ws01_plubing/src/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/src/install/base_interfaces_demo:/home/ros2/ws01_plubing/src/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/src/build/cpp01_topic -- -j12 -l12
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.131s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[6.335s] [100%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[6.550s] [100%] Built target demo01_talker_str
+[6.571s] Invoked command in '/home/ros2/ws01_plubing/src/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/src/install/base_interfaces_demo:/home/ros2/ws01_plubing/src/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plubing/src/build/cpp01_topic -- -j12 -l12
+[6.576s] Invoking command in '/home/ros2/ws01_plubing/src/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/src/install/base_interfaces_demo:/home/ros2/ws01_plubing/src/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plubing/src/build/cpp01_topic
+[6.587s] -- Install configuration: ""
+[6.587s] -- Installing: /home/ros2/ws01_plubing/src/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[6.589s] -- Set runtime path of "/home/ros2/ws01_plubing/src/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[6.589s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[6.590s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[6.590s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[6.590s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[6.590s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[6.590s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[6.591s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[6.591s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[6.591s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[6.591s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[6.592s] -- Installing: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/package.dsv
+[6.592s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[6.592s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[6.592s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[6.592s] -- Up-to-date: /home/ros2/ws01_plubing/src/install/cpp01_topic/share/cpp01_topic/package.xml
+[6.595s] Invoked command in '/home/ros2/ws01_plubing/src/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ws01_plubing/src/install/base_interfaces_demo:/home/ros2/ws01_plubing/src/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plubing/src/build/cpp01_topic

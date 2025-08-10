@@ -1,0 +1,11 @@
+/home/ros2/ws01_plubing/src/build/CMakeFiles/uninstall.dir
+/home/ros2/ws01_plubing/src/build/CMakeFiles/cpp01_topic_uninstall.dir
+/home/ros2/ws01_plubing/src/build/CMakeFiles/demo01_talker_str.dir
+/home/ros2/ws01_plubing/src/build/CMakeFiles/demo01_listener_str.dir
+/home/ros2/ws01_plubing/src/build/CMakeFiles/test.dir
+/home/ros2/ws01_plubing/src/build/CMakeFiles/edit_cache.dir
+/home/ros2/ws01_plubing/src/build/CMakeFiles/rebuild_cache.dir
+/home/ros2/ws01_plubing/src/build/CMakeFiles/list_install_components.dir
+/home/ros2/ws01_plubing/src/build/CMakeFiles/install.dir
+/home/ros2/ws01_plubing/src/build/CMakeFiles/install/local.dir
+/home/ros2/ws01_plubing/src/build/CMakeFiles/install/strip.dir

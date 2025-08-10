@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000373] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000531] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/ros2/ws01_plubing/install/base_interfaces_demo')])}
+[0.001098] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.024354] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 1}
+[0.026460] (-) EventReactorShutdown: {}
