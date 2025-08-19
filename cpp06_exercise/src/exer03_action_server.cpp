@@ -15,7 +15,6 @@
         5.资源释放
 */
 
-
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "demo_interfaces_base/action/real_time_distance.hpp"
@@ -37,7 +36,8 @@ public:
             std::bind(&RealtimeDistanceActionServer::handle_goal, this, _1, _2),
             std::bind(&RealtimeDistanceActionServer::handle_cancel, this, _1),
             std::bind(&RealtimeDistanceActionServer::handle_accepted, this, _1));
-        this->sub_ = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, std::bind(&RealtimeDistanceActionServer::pose_callback, this, _1));
+        this->sub_ = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10,
+            std::bind(&RealtimeDistanceActionServer::pose_callback, this, _1));
         this->pub_ = this->create_publisher<Twist>("/t2/turtle1/cmd_vel", 10);
     }
 
@@ -82,13 +82,13 @@ public:
             float goal_y = goal_handle->get_goal()->goal_y;
 
             // 计算剩余距离，并发布
-            float distance_x =  goal_x - serverPose.x;
-            float distance_y =  goal_y - serverPose.y;
+            float distance_x =  goal_x - serverPose_.x;
+            float distance_y =  goal_y - serverPose_.y;
             float distance = std::sqrt(distance_x * distance_x + distance_y * distance_y);
             feedback->current_distance = distance;
             goal_handle->publish_feedback(feedback);
 
-            // 根据剩余距离计算速度指令并发布
+            // 根据剩余距离计算速度指令并发布 geometry_msgs::msg::Twist用于控制乌龟运动速度，发布这个会让越靠近目标点，速度会越慢
             float scale = 0.5;
             float linear_x = distance_x * scale;
             float linear_y = distance_y * scale;
@@ -105,23 +105,23 @@ public:
             loop_rate.sleep();
         }
         if (rclcpp::ok()) {
-            result->turtle_x = serverPose.x;
-            result->turtle_y = serverPose.y;
+            result->turtle_x = serverPose_.x;
+            result->turtle_y = serverPose_.y;
             goal_handle->succeed(result);
         }
     }
 
-    void pose_callback(const turtlesim::msg::Pose msg) {
-        serverPose.x = msg.x;
-        serverPose.y = msg.y;
-        serverPose.theta = msg.theta;
+    void pose_callback(const Pose msg) {
+        serverPose_.x = msg.x;
+        serverPose_.y = msg.y;
+        serverPose_.theta = msg.theta;
     }
     
 private:
     rclcpp_action::Server<RealTimeDistance>::SharedPtr realTimeActionServer_;
     rclcpp::Subscription<Pose>::SharedPtr sub_;
     rclcpp::Publisher<Twist>::SharedPtr pub_;
-    Pose serverPose;
+    Pose serverPose_;
 };
 
 int main(int argc, char **argv)

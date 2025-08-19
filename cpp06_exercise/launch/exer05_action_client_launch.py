@@ -4,7 +4,7 @@ from launch.actions import ExecuteProcess
 
 def generate_launch_description():
     x = 6
-    y = 9
+    y = 7
     theta = 0.0
     name = "t2"
     # 1. 在目标点生成一只新乌龟
