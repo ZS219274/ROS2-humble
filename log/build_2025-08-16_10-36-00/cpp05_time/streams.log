@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/ros2/exam/build/cpp05_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp05_time -- -j12 -l12
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target demo01_time[0m
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[4.566s] [100%] [32m[1mLinking CXX executable demo01_time[0m
+[4.770s] [100%] Built target demo01_time
+[4.785s] Invoked command in '/home/ros2/exam/build/cpp05_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp05_time -- -j12 -l12
+[4.802s] Invoking command in '/home/ros2/exam/build/cpp05_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp05_time
+[4.853s] -- Install configuration: ""
+[4.854s] -- Installing: /home/ros2/exam/install/cpp05_time/lib/cpp05_time/demo01_time
+[4.856s] -- Set runtime path of "/home/ros2/exam/install/cpp05_time/lib/cpp05_time/demo01_time" to ""
+[4.856s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/ament_index/resource_index/package_run_dependencies/cpp05_time
+[4.856s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/ament_index/resource_index/parent_prefix_path/cpp05_time
+[4.857s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/cpp05_time/environment/ament_prefix_path.sh
+[4.857s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/cpp05_time/environment/ament_prefix_path.dsv
+[4.857s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/cpp05_time/environment/path.sh
+[4.857s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/cpp05_time/environment/path.dsv
+[4.858s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/cpp05_time/local_setup.bash
+[4.858s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/cpp05_time/local_setup.sh
+[4.858s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/cpp05_time/local_setup.zsh
+[4.858s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/cpp05_time/local_setup.dsv
+[4.858s] -- Installing: /home/ros2/exam/install/cpp05_time/share/cpp05_time/package.dsv
+[4.858s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/ament_index/resource_index/packages/cpp05_time
+[4.858s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/cpp05_time/cmake/cpp05_timeConfig.cmake
+[4.858s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/cpp05_time/cmake/cpp05_timeConfig-version.cmake
+[4.858s] -- Up-to-date: /home/ros2/exam/install/cpp05_time/share/cpp05_time/package.xml
+[4.863s] Invoked command in '/home/ros2/exam/build/cpp05_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp05_time

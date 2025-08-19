@@ -1,0 +1,37 @@
+[ 10%] [32mBuilding CXX object CMakeFiles/exer03_action_client.dir/src/exer03_action_client.cpp.o[0m
+[ 30%] Built target exer01_pub_sub
+[ 50%] Built target exer02_client
+[ 70%] Built target exer02_service
+[ 90%] Built target exer03_action_server
+[100%] [32m[1mLinking CXX executable exer03_action_client[0m
+[100%] Built target exer03_action_client
+-- Install configuration: ""
+-- Installing: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer01_pub_sub
+-- Set runtime path of "/home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer01_pub_sub" to ""
+-- Installing: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer02_client
+-- Set runtime path of "/home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer02_client" to ""
+-- Installing: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer02_service
+-- Set runtime path of "/home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer02_service" to ""
+-- Installing: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer03_action_client
+-- Set runtime path of "/home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer03_action_client" to ""
+-- Installing: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer03_action_server
+-- Set runtime path of "/home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer03_action_server" to ""
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch/exer01_pub_sub_launch.py
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch/exer03_client_launch.py
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch/exer02_service_launch.py
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/package_run_dependencies/cpp06_exercise
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/parent_prefix_path/cpp06_exercise
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/ament_prefix_path.sh
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/ament_prefix_path.dsv
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/path.sh
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/path.dsv
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.bash
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.sh
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.zsh
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.dsv
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.dsv
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/packages/cpp06_exercise
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/cmake/cpp06_exerciseConfig.cmake
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/cmake/cpp06_exerciseConfig-version.cmake
+-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.xml

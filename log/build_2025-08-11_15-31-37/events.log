@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000637] (demo_interfaces_base) JobQueued: {'identifier': 'demo_interfaces_base', 'dependencies': OrderedDict()}
+[0.001155] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('demo_interfaces_base', '/home/ros2/exam/install/demo_interfaces_base')])}
+[0.001273] (demo_interfaces_base) JobStarted: {'identifier': 'demo_interfaces_base'}
+[0.012620] (demo_interfaces_base) JobProgress: {'identifier': 'demo_interfaces_base', 'progress': 'cmake'}
+[0.015370] (demo_interfaces_base) JobProgress: {'identifier': 'demo_interfaces_base', 'progress': 'build'}
+[0.015645] (demo_interfaces_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/exam/build/demo_interfaces_base', '--', '-j12', '-l12'], 'cwd': '/home/ros2/exam/build/demo_interfaces_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros2'), ('SSH_CLIENT', '192.168.174.1 50850 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-941343e2-4b8e-41b7-93d0-b37736cea66e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ros2/exam/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d28d503539.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/exam/build/demo_interfaces_base'), ('SSH_CONNECTION', '192.168.174.1 50850 192.168.174.156 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.098247] (-) TimerEvent: {}
+[0.105871] (demo_interfaces_base) CommandEnded: {'returncode': 0}
+[0.107436] (demo_interfaces_base) JobProgress: {'identifier': 'demo_interfaces_base', 'progress': 'install'}
+[0.120888] (demo_interfaces_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/exam/build/demo_interfaces_base'], 'cwd': '/home/ros2/exam/build/demo_interfaces_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros2'), ('SSH_CLIENT', '192.168.174.1 50850 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-941343e2-4b8e-41b7-93d0-b37736cea66e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ros2/exam/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d28d503539.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/exam/build/demo_interfaces_base'), ('SSH_CONNECTION', '192.168.174.1 50850 192.168.174.156 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.137725] (demo_interfaces_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.138454] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/ament_index/resource_index/package_run_dependencies/demo_interfaces_base\n'}
+[0.138621] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/ament_index/resource_index/parent_prefix_path/demo_interfaces_base\n'}
+[0.138696] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/ament_prefix_path.sh\n'}
+[0.138782] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/ament_prefix_path.dsv\n'}
+[0.139001] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/path.sh\n'}
+[0.139287] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/path.dsv\n'}
+[0.139362] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/local_setup.bash\n'}
+[0.139444] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/local_setup.sh\n'}
+[0.139491] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/local_setup.zsh\n'}
+[0.139531] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/local_setup.dsv\n'}
+[0.139571] (demo_interfaces_base) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.dsv\n'}
+[0.139635] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/ament_index/resource_index/packages/demo_interfaces_base\n'}
+[0.139688] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_baseConfig.cmake\n'}
+[0.139740] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_baseConfig-version.cmake\n'}
+[0.139786] (demo_interfaces_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.xml\n'}
+[0.142441] (demo_interfaces_base) CommandEnded: {'returncode': 0}
+[0.170413] (demo_interfaces_base) JobEnded: {'identifier': 'demo_interfaces_base', 'rc': 0}
+[0.173026] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.185250] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.185970] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.187613] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/exam/build/cpp01_topic', '--', '-j12', '-l12'], 'cwd': '/home/ros2/exam/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros2'), ('SSH_CLIENT', '192.168.174.1 50850 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-941343e2-4b8e-41b7-93d0-b37736cea66e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ros2/exam/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d28d503539.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/exam/build/cpp01_topic'), ('SSH_CONNECTION', '192.168.174.1 50850 192.168.174.156 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.198501] (-) TimerEvent: {}
+[0.273530] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_sub_str\x1b[0m\n'}
+[0.298616] (cpp01_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo01_pub_str.dir/src/demo01_pub_str.cpp.o\x1b[0m\n'}
+[0.298947] (-) TimerEvent: {}
+[0.331921] (cpp01_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_sub_str.dir/src/demo01_sub_str.cpp.o\x1b[0m\n'}
+[0.399285] (-) TimerEvent: {}
+[0.500119] (-) TimerEvent: {}
+[0.600679] (-) TimerEvent: {}
+[0.701395] (-) TimerEvent: {}
+[0.801958] (-) TimerEvent: {}
+[0.902525] (-) TimerEvent: {}
+[1.003059] (-) TimerEvent: {}
+[1.103591] (-) TimerEvent: {}
+[1.204120] (-) TimerEvent: {}
+[1.304718] (-) TimerEvent: {}
+[1.405272] (-) TimerEvent: {}
+[1.506037] (-) TimerEvent: {}
+[1.606594] (-) TimerEvent: {}
+[1.707225] (-) TimerEvent: {}
+[1.807814] (-) TimerEvent: {}
+[1.908288] (-) TimerEvent: {}
+[2.008774] (-) TimerEvent: {}
+[2.109287] (-) TimerEvent: {}
+[2.209908] (-) TimerEvent: {}
+[2.310493] (-) TimerEvent: {}
+[2.411001] (-) TimerEvent: {}
+[2.511522] (-) TimerEvent: {}
+[2.612002] (-) TimerEvent: {}
+[2.712513] (-) TimerEvent: {}
+[2.813111] (-) TimerEvent: {}
+[2.913684] (-) TimerEvent: {}
+[3.014167] (-) TimerEvent: {}
+[3.114760] (-) TimerEvent: {}
+[3.215473] (-) TimerEvent: {}
+[3.316088] (-) TimerEvent: {}
+[3.416703] (-) TimerEvent: {}
+[3.517458] (-) TimerEvent: {}
+[3.617885] (-) TimerEvent: {}
+[3.718375] (-) TimerEvent: {}
+[3.819007] (-) TimerEvent: {}
+[3.919764] (-) TimerEvent: {}
+[4.020198] (-) TimerEvent: {}
+[4.120715] (-) TimerEvent: {}
+[4.221228] (-) TimerEvent: {}
+[4.321781] (-) TimerEvent: {}
+[4.422405] (-) TimerEvent: {}
+[4.522841] (-) TimerEvent: {}
+[4.623552] (-) TimerEvent: {}
+[4.724290] (-) TimerEvent: {}
+[4.824835] (-) TimerEvent: {}
+[4.925355] (-) TimerEvent: {}
+[5.025947] (-) TimerEvent: {}
+[5.126786] (-) TimerEvent: {}
+[5.227394] (-) TimerEvent: {}
+[5.327916] (-) TimerEvent: {}
+[5.428591] (-) TimerEvent: {}
+[5.529014] (-) TimerEvent: {}
+[5.612391] (cpp01_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo01_pub_str\x1b[0m\n'}
+[5.629256] (-) TimerEvent: {}
+[5.729740] (-) TimerEvent: {}
+[5.830229] (-) TimerEvent: {}
+[5.839032] (cpp01_topic) StdoutLine: {'line': b'[ 75%] Built target demo01_pub_str\n'}
+[5.930727] (-) TimerEvent: {}
+[6.031347] (-) TimerEvent: {}
+[6.132130] (-) TimerEvent: {}
+[6.232999] (-) TimerEvent: {}
+[6.333761] (-) TimerEvent: {}
+[6.434537] (-) TimerEvent: {}
+[6.535001] (-) TimerEvent: {}
+[6.635652] (-) TimerEvent: {}
+[6.736122] (-) TimerEvent: {}
+[6.836697] (-) TimerEvent: {}
+[6.937273] (-) TimerEvent: {}
+[7.037930] (-) TimerEvent: {}
+[7.138488] (-) TimerEvent: {}
+[7.239017] (-) TimerEvent: {}
+[7.339538] (-) TimerEvent: {}
+[7.440189] (-) TimerEvent: {}
+[7.540767] (-) TimerEvent: {}
+[7.641206] (-) TimerEvent: {}
+[7.741842] (-) TimerEvent: {}
+[7.842435] (-) TimerEvent: {}
+[7.942957] (-) TimerEvent: {}
+[8.043354] (-) TimerEvent: {}
+[8.143931] (-) TimerEvent: {}
+[8.244423] (-) TimerEvent: {}
+[8.344985] (-) TimerEvent: {}
+[8.445749] (-) TimerEvent: {}
+[8.546350] (-) TimerEvent: {}
+[8.647097] (-) TimerEvent: {}
+[8.747668] (-) TimerEvent: {}
+[8.848118] (-) TimerEvent: {}
+[8.948832] (-) TimerEvent: {}
+[9.049416] (-) TimerEvent: {}
+[9.150032] (-) TimerEvent: {}
+[9.168015] (cpp01_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_sub_str\x1b[0m\n'}
+[9.250244] (-) TimerEvent: {}
+[9.350940] (-) TimerEvent: {}
+[9.451445] (-) TimerEvent: {}
+[9.551823] (-) TimerEvent: {}
+[9.594805] (cpp01_topic) StdoutLine: {'line': b'[100%] Built target demo01_sub_str\n'}
+[9.611880] (cpp01_topic) CommandEnded: {'returncode': 0}
+[9.612765] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'install'}
+[9.614926] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/exam/build/cpp01_topic'], 'cwd': '/home/ros2/exam/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros2'), ('SSH_CLIENT', '192.168.174.1 50850 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-941343e2-4b8e-41b7-93d0-b37736cea66e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ros2/exam/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d28d503539.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/exam/build/cpp01_topic'), ('SSH_CONNECTION', '192.168.174.1 50850 192.168.174.156 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[9.626212] (cpp01_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.626912] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp01_topic/lib/cpp01_topic/demo01_pub_str\n'}
+[9.628729] (cpp01_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/exam/install/cpp01_topic/lib/cpp01_topic/demo01_pub_str" to ""\n'}
+[9.629480] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp01_topic/lib/cpp01_topic/demo01_sub_str\n'}
+[9.636123] (cpp01_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/exam/install/cpp01_topic/lib/cpp01_topic/demo01_sub_str" to ""\n'}
+[9.636956] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic\n'}
+[9.637145] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic\n'}
+[9.637203] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh\n'}
+[9.637255] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv\n'}
+[9.637477] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/environment/path.sh\n'}
+[9.637909] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/environment/path.dsv\n'}
+[9.638022] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/local_setup.bash\n'}
+[9.638073] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/local_setup.sh\n'}
+[9.638126] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/local_setup.zsh\n'}
+[9.638175] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/local_setup.dsv\n'}
+[9.638222] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.dsv\n'}
+[9.638317] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic\n'}
+[9.638372] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake\n'}
+[9.638446] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake\n'}
+[9.638693] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.xml\n'}
+[9.640225] (cpp01_topic) CommandEnded: {'returncode': 0}
+[9.652264] (-) TimerEvent: {}
+[9.658600] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 0}
+[9.660796] (-) EventReactorShutdown: {}

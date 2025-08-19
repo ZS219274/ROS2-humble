@@ -1,0 +1,15 @@
+[0.118s] Invoking command in '/home/ros2/exam/build/cpp06_exercise': CMAKE_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12
+[0.214s] [35m[1mConsolidate compiler generated dependencies of target exer03_action_server[0m
+[0.238s] [ 10%] [32mBuilding CXX object CMakeFiles/exer03_action_client.dir/src/exer03_action_client.cpp.o[0m
+[0.238s] [ 30%] Built target exer01_pub_sub
+[0.241s] [ 50%] Built target exer02_service
+[0.241s] [ 70%] Built target exer03_action_server
+[0.254s] [ 90%] Built target exer02_client
+[0.576s] [01m[K/home/ros2/exam/cpp06_exercise/src/exer03_action_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdemo_interfaces_base/action/realtimedistance.hpp: No such file or directory
+[0.576s]     2 | #include [01;31m[K"demo_interfaces_base/action/realtimedistance.hpp"[m[K
+[0.576s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.576s] compilation terminated.
+[0.618s] gmake[2]: *** [CMakeFiles/exer03_action_client.dir/build.make:76: CMakeFiles/exer03_action_client.dir/src/exer03_action_client.cpp.o] Error 1
+[0.619s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/exer03_action_client.dir/all] Error 2
+[0.619s] gmake: *** [Makefile:146: all] Error 2
+[0.625s] Invoked command in '/home/ros2/exam/build/cpp06_exercise' returned '2': CMAKE_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12

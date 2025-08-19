@@ -1,0 +1,28 @@
+[0.042s] Invoking command in '/home/ros2/exam/build/cpp06_exercise': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12
+[0.114s] [35m[1mConsolidate compiler generated dependencies of target exer01_pub_sub[0m
+[0.156s] [ 50%] [32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o[0m
+[10.833s] [100%] [32m[1mLinking CXX executable exer01_pub_sub[0m
+[11.345s] [100%] Built target exer01_pub_sub
+[11.365s] Invoked command in '/home/ros2/exam/build/cpp06_exercise' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12
+[11.383s] Invoking command in '/home/ros2/exam/build/cpp06_exercise': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp06_exercise
+[11.396s] -- Install configuration: ""
+[11.396s] -- Installing: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer01_pub_sub
+[11.403s] -- Set runtime path of "/home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer01_pub_sub" to ""
+[11.403s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch
+[11.403s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch/exer01_pub_sub_launch.py
+[11.403s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/package_run_dependencies/cpp06_exercise
+[11.404s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/parent_prefix_path/cpp06_exercise
+[11.404s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/ament_prefix_path.sh
+[11.404s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/ament_prefix_path.dsv
+[11.404s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/path.sh
+[11.404s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/path.dsv
+[11.404s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.bash
+[11.404s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.sh
+[11.404s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.zsh
+[11.404s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.dsv
+[11.404s] -- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.dsv
+[11.405s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/packages/cpp06_exercise
+[11.405s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/cmake/cpp06_exerciseConfig.cmake
+[11.405s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/cmake/cpp06_exerciseConfig-version.cmake
+[11.405s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.xml
+[11.407s] Invoked command in '/home/ros2/exam/build/cpp06_exercise' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp06_exercise

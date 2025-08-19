@@ -1,0 +1,28 @@
+[0.021s] Invoking command in '/home/ros2/exam/build/cpp01_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp01_topic -- -j12 -l12
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target demo01_sub_str[0m
+[0.156s] [ 50%] Built target demo01_pub_str
+[0.169s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_sub_str.dir/src/demo01_sub_str.cpp.o[0m
+[8.254s] [100%] [32m[1mLinking CXX executable demo01_sub_str[0m
+[8.682s] [100%] Built target demo01_sub_str
+[8.700s] Invoked command in '/home/ros2/exam/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp01_topic -- -j12 -l12
+[8.703s] Invoking command in '/home/ros2/exam/build/cpp01_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp01_topic
+[8.713s] -- Install configuration: ""
+[8.713s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/lib/cpp01_topic/demo01_pub_str
+[8.713s] -- Installing: /home/ros2/exam/install/cpp01_topic/lib/cpp01_topic/demo01_sub_str
+[8.720s] -- Set runtime path of "/home/ros2/exam/install/cpp01_topic/lib/cpp01_topic/demo01_sub_str" to ""
+[8.720s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[8.720s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[8.720s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[8.721s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[8.721s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[8.721s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[8.721s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[8.721s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[8.721s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[8.722s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[8.722s] -- Installing: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.dsv
+[8.722s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[8.722s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[8.722s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[8.722s] -- Up-to-date: /home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.xml
+[8.725s] Invoked command in '/home/ros2/exam/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp01_topic

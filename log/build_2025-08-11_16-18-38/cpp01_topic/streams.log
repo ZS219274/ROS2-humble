@@ -1,0 +1,12 @@
+[0.090s] Invoking command in '/home/ros2/exam/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/exam/build/cpp01_topic -- -j12 -l12
+[0.274s] [ 16%] [32mBuilding CXX object CMakeFiles/demo01_pub_stu.dir/src/demo01_pub_stu.cpp.o[0m
+[0.282s] [ 50%] Built target demo01_pub_str
+[0.282s] [ 83%] Built target demo01_sub_str
+[0.590s] [01m[K/home/ros2/exam/cpp01_topic/src/demo01_pub_stu.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdemo_interfaces_base/msg/student.hpp: No such file or directory
+[0.590s]     2 | #include [01;31m[K"demo_interfaces_base/msg/student.hpp"[m[K
+[0.590s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.590s] compilation terminated.
+[0.592s] gmake[2]: *** [CMakeFiles/demo01_pub_stu.dir/build.make:76: CMakeFiles/demo01_pub_stu.dir/src/demo01_pub_stu.cpp.o] Error 1
+[0.593s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo01_pub_stu.dir/all] Error 2
+[0.593s] gmake: *** [Makefile:146: all] Error 2
+[0.596s] Invoked command in '/home/ros2/exam/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/exam/build/cpp01_topic -- -j12 -l12

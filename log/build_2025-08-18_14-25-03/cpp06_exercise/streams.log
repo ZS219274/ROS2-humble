@@ -1,0 +1,20 @@
+[0.071s] Invoking command in '/home/ros2/exam/build/cpp06_exercise': CMAKE_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target exer02_service[0m
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target exer02_client[0m
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target exer01_pub_sub[0m
+[0.172s] [ 10%] [32mBuilding CXX object CMakeFiles/exer03_action_server.dir/src/exer03_action_server.cpp.o[0m
+[0.172s] [ 20%] [32mBuilding CXX object CMakeFiles/exer03_action_client.dir/src/exer03_action_client.cpp.o[0m
+[0.184s] [ 40%] Built target exer01_pub_sub
+[0.229s] [ 60%] Built target exer02_client
+[0.233s] [ 80%] Built target exer02_service
+[0.544s] [01m[K/home/ros2/exam/cpp06_exercise/src/exer03_action_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdemo_interfaces_base/action/realtimedistance.hpp: No such file or directory
+[0.544s]     2 | #include [01;31m[K"demo_interfaces_base/action/realtimedistance.hpp"[m[K
+[0.544s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.544s] compilation terminated.
+[0.547s] gmake[2]: *** [CMakeFiles/exer03_action_client.dir/build.make:76: CMakeFiles/exer03_action_client.dir/src/exer03_action_client.cpp.o] Error 1
+[0.548s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/exer03_action_client.dir/all] Error 2
+[0.548s] gmake[1]: *** Waiting for unfinished jobs....
+[4.452s] [ 90%] [32m[1mLinking CXX executable exer03_action_server[0m
+[4.669s] [ 90%] Built target exer03_action_server
+[4.670s] gmake: *** [Makefile:146: all] Error 2
+[4.674s] Invoked command in '/home/ros2/exam/build/cpp06_exercise' returned '2': CMAKE_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12

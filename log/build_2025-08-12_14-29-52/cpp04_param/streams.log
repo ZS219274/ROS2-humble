@@ -1,0 +1,54 @@
+[0.026s] Invoking command in '/home/ros2/exam/build/cpp04_param': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/exam/build/cpp04_param -- -j12 -l12
+[0.104s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.293s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.335s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.339s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.345s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.370s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.401s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.403s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.525s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.574s] -- Found demo_interfaces_base: 0.0.0 (/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake)
+[0.624s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.714s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.714s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/exam/cpp04_param/include>
+[0.715s] -- Configured cppcheck exclude dirs and/or files: 
+[0.715s] -- Added test 'lint_cmake' to check CMake code style
+[0.716s] -- Added test 'uncrustify' to check C / C++ code style
+[0.716s] -- Configured uncrustify additional arguments: 
+[0.717s] -- Added test 'xmllint' to check XML markup files
+[0.718s] -- Configuring done
+[0.752s] -- Generating done
+[0.765s] -- Build files have been written to: /home/ros2/exam/build/cpp04_param
+[0.806s] [35m[1mConsolidate compiler generated dependencies of target demo01_param_client[0m
+[0.807s] [35m[1mConsolidate compiler generated dependencies of target demo01_param_server[0m
+[0.835s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[0.835s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_param_client.dir/src/demo01_param_client.cpp.o[0m
+[6.880s] [ 75%] [32m[1mLinking CXX executable demo01_param_server[0m
+[7.023s] [100%] [32m[1mLinking CXX executable demo01_param_client[0m
+[7.140s] [100%] Built target demo01_param_server
+[7.242s] [100%] Built target demo01_param_client
+[7.269s] Invoked command in '/home/ros2/exam/build/cpp04_param' returned '0': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/exam/build/cpp04_param -- -j12 -l12
+[7.309s] Invoking command in '/home/ros2/exam/build/cpp04_param': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/exam/build/cpp04_param
+[7.327s] -- Install configuration: ""
+[7.328s] -- Installing: /home/ros2/exam/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[7.331s] -- Set runtime path of "/home/ros2/exam/install/cpp04_param/lib/cpp04_param/demo01_param_server" to ""
+[7.332s] -- Installing: /home/ros2/exam/install/cpp04_param/lib/cpp04_param/demo01_param_client
+[7.336s] -- Set runtime path of "/home/ros2/exam/install/cpp04_param/lib/cpp04_param/demo01_param_client" to ""
+[7.336s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[7.337s] -- Installing: /home/ros2/exam/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[7.337s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[7.337s] -- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[7.337s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/path.sh
+[7.337s] -- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[7.338s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.bash
+[7.338s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.sh
+[7.338s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[7.338s] -- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[7.338s] -- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/package.dsv
+[7.339s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[7.339s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[7.339s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[7.339s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/package.xml
+[7.345s] Invoked command in '/home/ros2/exam/build/cpp04_param' returned '0': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/exam/build/cpp04_param

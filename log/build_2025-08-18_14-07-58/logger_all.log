@@ -1,0 +1,580 @@
+[0.106s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.106s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7043a4a37250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7043a4a366b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7043a4a366b0>>)
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.233s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros2/exam'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp01_topic' with type 'ros.ament_cmake' and name 'cpp01_topic'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp02_service' with type 'ros.ament_cmake' and name 'cpp02_service'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp03_action' with type 'ros.ament_cmake' and name 'cpp03_action'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp04_param) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp04_param) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp04_param) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp04_param) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp04_param) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp04_param) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp04_param) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp04_param) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp04_param) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp04_param' with type 'ros.ament_cmake' and name 'cpp04_param'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp05_time) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp05_time) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp05_time) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp05_time) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp05_time) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp05_time) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp05_time) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp05_time) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(cpp05_time) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp05_time' with type 'ros.ament_cmake' and name 'cpp05_time'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(cpp06_exercise) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(cpp06_exercise) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(cpp06_exercise) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(cpp06_exercise) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(cpp06_exercise) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(cpp06_exercise) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(cpp06_exercise) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(cpp06_exercise) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(cpp06_exercise) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp06_exercise' with type 'ros.ament_cmake' and name 'cpp06_exercise'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(demo_interfaces_base) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(demo_interfaces_base) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(demo_interfaces_base) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(demo_interfaces_base) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(demo_interfaces_base) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(demo_interfaces_base) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(demo_interfaces_base) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(demo_interfaces_base) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(demo_interfaces_base) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'demo_interfaces_base' with type 'ros.ament_cmake' and name 'demo_interfaces_base'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.275s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/ros2/exam/install
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.315s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /opt/ros/humble, /home/ros2/exam/install/turtlesim
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'cpp05_time' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'cpp05_time' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'cpp05_time' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'cpp05_time' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'cpp05_time' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'cpp05_time' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'cpp05_time' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'cpp05_time' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'cpp05_time' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] DEBUG:colcon.colcon_core.verb:Building package 'cpp05_time' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/exam/build/cpp05_time', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/exam/install/cpp05_time', 'merge_install': False, 'path': '/home/ros2/exam/cpp05_time', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'demo_interfaces_base' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'demo_interfaces_base' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'demo_interfaces_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'demo_interfaces_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'demo_interfaces_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'demo_interfaces_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'demo_interfaces_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'demo_interfaces_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'demo_interfaces_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'demo_interfaces_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/exam/build/demo_interfaces_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/exam/install/demo_interfaces_base', 'merge_install': False, 'path': '/home/ros2/exam/demo_interfaces_base', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/exam/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/exam/install/turtlesim', 'merge_install': False, 'path': '/home/ros2/exam/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/exam/build/cpp01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/exam/install/cpp01_topic', 'merge_install': False, 'path': '/home/ros2/exam/cpp01_topic', 'symlink_install': False, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'cpp02_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/exam/build/cpp02_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/exam/install/cpp02_service', 'merge_install': False, 'path': '/home/ros2/exam/cpp02_service', 'symlink_install': False, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'cpp03_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/exam/build/cpp03_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/exam/install/cpp03_action', 'merge_install': False, 'path': '/home/ros2/exam/cpp03_action', 'symlink_install': False, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'cpp04_param' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/exam/build/cpp04_param', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/exam/install/cpp04_param', 'merge_install': False, 'path': '/home/ros2/exam/cpp04_param', 'symlink_install': False, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'cpp06_exercise' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'cpp06_exercise' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'cpp06_exercise' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'cpp06_exercise' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'cpp06_exercise' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'cpp06_exercise' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'cpp06_exercise' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'cpp06_exercise' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'cpp06_exercise' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'cpp06_exercise' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/exam/build/cpp06_exercise', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/exam/install/cpp06_exercise', 'merge_install': False, 'path': '/home/ros2/exam/cpp06_exercise', 'symlink_install': False, 'test_result_base': None}
+[0.320s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.322s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/exam/demo_interfaces_base' with build type 'ament_cmake'
+[0.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/exam/demo_interfaces_base'
+[0.327s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/exam/turtlesim' with build type 'ament_cmake'
+[0.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/exam/turtlesim'
+[0.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.340s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/exam/cpp05_time' with build type 'ament_cmake'
+[0.340s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/exam/cpp05_time'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/demo_interfaces_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/demo_interfaces_base -- -j12 -l12
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/turtlesim -- -j12 -l12
+[0.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/cpp05_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp05_time -- -j12 -l12
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/cpp05_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp05_time -- -j12 -l12
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/cpp05_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp05_time
+[0.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp05_time)
+[0.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/cpp05_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp05_time
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time' for CMake module files
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time' for CMake config files
+[0.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp05_time', 'cmake_prefix_path')
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp05_time/share/cpp05_time/hook/cmake_prefix_path.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/cpp05_time/share/cpp05_time/hook/cmake_prefix_path.dsv'
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp05_time/share/cpp05_time/hook/cmake_prefix_path.sh'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time/lib'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time/bin'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time/lib/pkgconfig/cpp05_time.pc'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time/lib/python3.10/site-packages'
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time/bin'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp05_time/share/cpp05_time/package.ps1'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/cpp05_time/share/cpp05_time/package.dsv'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp05_time/share/cpp05_time/package.sh'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp05_time/share/cpp05_time/package.bash'
+[0.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp05_time/share/cpp05_time/package.zsh'
+[0.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/cpp05_time/share/colcon-core/packages/cpp05_time)
+[0.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp05_time)
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time' for CMake module files
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time' for CMake config files
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp05_time', 'cmake_prefix_path')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp05_time/share/cpp05_time/hook/cmake_prefix_path.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/cpp05_time/share/cpp05_time/hook/cmake_prefix_path.dsv'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp05_time/share/cpp05_time/hook/cmake_prefix_path.sh'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time/lib'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time/bin'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time/lib/pkgconfig/cpp05_time.pc'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time/lib/python3.10/site-packages'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp05_time/bin'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp05_time/share/cpp05_time/package.ps1'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/cpp05_time/share/cpp05_time/package.dsv'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp05_time/share/cpp05_time/package.sh'
+[0.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp05_time/share/cpp05_time/package.bash'
+[0.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp05_time/share/cpp05_time/package.zsh'
+[0.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/cpp05_time/share/colcon-core/packages/cpp05_time)
+[0.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/turtlesim -- -j12 -l12
+[0.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/turtlesim
+[0.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim' for CMake module files
+[0.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/turtlesim
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim' for CMake config files
+[0.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim/lib'
+[0.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim/bin'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim/lib/python3.10/site-packages'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim/bin'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/turtlesim/share/turtlesim/package.ps1'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/turtlesim/share/turtlesim/package.dsv'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/turtlesim/share/turtlesim/package.sh'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/turtlesim/share/turtlesim/package.bash'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/turtlesim/share/turtlesim/package.zsh'
+[0.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/turtlesim/share/colcon-core/packages/turtlesim)
+[0.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim' for CMake module files
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim' for CMake config files
+[0.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim/lib'
+[0.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim/bin'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim/lib/python3.10/site-packages'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/turtlesim/bin'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/turtlesim/share/turtlesim/package.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/turtlesim/share/turtlesim/package.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/turtlesim/share/turtlesim/package.sh'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/turtlesim/share/turtlesim/package.bash'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/turtlesim/share/turtlesim/package.zsh'
+[0.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/turtlesim/share/colcon-core/packages/turtlesim)
+[8.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/demo_interfaces_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/demo_interfaces_base -- -j12 -l12
+[8.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/demo_interfaces_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/demo_interfaces_base
+[8.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_interfaces_base)
+[8.242s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base' for CMake module files
+[8.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/demo_interfaces_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/demo_interfaces_base
+[8.244s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base' for CMake config files
+[8.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_interfaces_base', 'cmake_prefix_path')
+[8.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/cmake_prefix_path.ps1'
+[8.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/cmake_prefix_path.dsv'
+[8.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/cmake_prefix_path.sh'
+[8.247s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base/lib'
+[8.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_interfaces_base', 'ld_library_path_lib')
+[8.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/ld_library_path_lib.ps1'
+[8.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/ld_library_path_lib.dsv'
+[8.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/ld_library_path_lib.sh'
+[8.250s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base/bin'
+[8.250s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base/lib/pkgconfig/demo_interfaces_base.pc'
+[8.251s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base/lib/python3.10/site-packages'
+[8.251s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base/bin'
+[8.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.ps1'
+[8.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.dsv'
+[8.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.sh'
+[8.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.bash'
+[8.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.zsh'
+[8.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/demo_interfaces_base/share/colcon-core/packages/demo_interfaces_base)
+[8.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_interfaces_base)
+[8.258s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base' for CMake module files
+[8.259s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base' for CMake config files
+[8.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_interfaces_base', 'cmake_prefix_path')
+[8.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/cmake_prefix_path.ps1'
+[8.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/cmake_prefix_path.dsv'
+[8.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/cmake_prefix_path.sh'
+[8.263s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base/lib'
+[8.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_interfaces_base', 'ld_library_path_lib')
+[8.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/ld_library_path_lib.ps1'
+[8.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/ld_library_path_lib.dsv'
+[8.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/hook/ld_library_path_lib.sh'
+[8.266s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base/bin'
+[8.266s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base/lib/pkgconfig/demo_interfaces_base.pc'
+[8.267s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base/lib/python3.10/site-packages'
+[8.267s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/demo_interfaces_base/bin'
+[8.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.ps1'
+[8.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.dsv'
+[8.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.sh'
+[8.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.bash'
+[8.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.zsh'
+[8.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/demo_interfaces_base/share/colcon-core/packages/demo_interfaces_base)
+[8.276s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/exam/cpp01_topic' with build type 'ament_cmake'
+[8.277s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/exam/cpp01_topic'
+[8.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/exam/cpp02_service' with build type 'ament_cmake'
+[8.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/exam/cpp02_service'
+[8.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/exam/cpp03_action' with build type 'ament_cmake'
+[8.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/exam/cpp03_action'
+[8.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.303s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/exam/cpp04_param' with build type 'ament_cmake'
+[8.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/exam/cpp04_param'
+[8.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/exam/cpp06_exercise' with build type 'ament_cmake'
+[8.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/exam/cpp06_exercise'
+[8.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/exam/build/cpp01_topic -- -j12 -l12
+[8.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/exam/build/cpp02_service -- -j12 -l12
+[8.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/cpp03_action': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/exam/build/cpp03_action -- -j12 -l12
+[8.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/cpp06_exercise': CMAKE_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12
+[8.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/cpp04_param': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/exam/build/cpp04_param -- -j12 -l12
+[9.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/exam/build/cpp04_param -- -j12 -l12
+[9.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/cpp04_param': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/exam/build/cpp04_param
+[9.692s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp04_param)
+[9.692s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param' for CMake module files
+[9.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/exam/build/cpp04_param
+[9.693s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param' for CMake config files
+[9.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp04_param', 'cmake_prefix_path')
+[9.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.ps1'
+[9.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.dsv'
+[9.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.sh'
+[9.702s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param/lib'
+[9.702s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param/bin'
+[9.703s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param/lib/pkgconfig/cpp04_param.pc'
+[9.703s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param/lib/python3.10/site-packages'
+[9.703s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param/bin'
+[9.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp04_param/share/cpp04_param/package.ps1'
+[9.705s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/cpp04_param/share/cpp04_param/package.dsv'
+[9.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp04_param/share/cpp04_param/package.sh'
+[9.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp04_param/share/cpp04_param/package.bash'
+[9.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp04_param/share/cpp04_param/package.zsh'
+[9.709s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/cpp04_param/share/colcon-core/packages/cpp04_param)
+[9.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp04_param)
+[9.710s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param' for CMake module files
+[9.711s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param' for CMake config files
+[9.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp04_param', 'cmake_prefix_path')
+[9.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.ps1'
+[9.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.dsv'
+[9.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.sh'
+[9.718s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param/lib'
+[9.718s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param/bin'
+[9.719s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param/lib/pkgconfig/cpp04_param.pc'
+[9.719s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param/lib/python3.10/site-packages'
+[9.720s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp04_param/bin'
+[9.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp04_param/share/cpp04_param/package.ps1'
+[9.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/cpp04_param/share/cpp04_param/package.dsv'
+[9.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp04_param/share/cpp04_param/package.sh'
+[9.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp04_param/share/cpp04_param/package.bash'
+[9.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp04_param/share/cpp04_param/package.zsh'
+[9.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/cpp04_param/share/colcon-core/packages/cpp04_param)
+[15.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/exam/build/cpp02_service -- -j12 -l12
+[15.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/exam/build/cpp02_service
+[15.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_service)
+[15.834s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service' for CMake module files
+[15.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/exam/build/cpp02_service
+[15.836s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service' for CMake config files
+[15.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_service', 'cmake_prefix_path')
+[15.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.ps1'
+[15.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.dsv'
+[15.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.sh'
+[15.839s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service/lib'
+[15.839s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service/bin'
+[15.839s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service/lib/pkgconfig/cpp02_service.pc'
+[15.840s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service/lib/python3.10/site-packages'
+[15.840s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service/bin'
+[15.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp02_service/share/cpp02_service/package.ps1'
+[15.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/cpp02_service/share/cpp02_service/package.dsv'
+[15.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp02_service/share/cpp02_service/package.sh'
+[15.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp02_service/share/cpp02_service/package.bash'
+[15.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp02_service/share/cpp02_service/package.zsh'
+[15.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/cpp02_service/share/colcon-core/packages/cpp02_service)
+[15.845s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_service)
+[15.845s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service' for CMake module files
+[15.846s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service' for CMake config files
+[15.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_service', 'cmake_prefix_path')
+[15.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.ps1'
+[15.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.dsv'
+[15.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.sh'
+[15.849s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service/lib'
+[15.849s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service/bin'
+[15.849s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service/lib/pkgconfig/cpp02_service.pc'
+[15.849s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service/lib/python3.10/site-packages'
+[15.850s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp02_service/bin'
+[15.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp02_service/share/cpp02_service/package.ps1'
+[15.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/cpp02_service/share/cpp02_service/package.dsv'
+[15.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp02_service/share/cpp02_service/package.sh'
+[15.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp02_service/share/cpp02_service/package.bash'
+[15.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp02_service/share/cpp02_service/package.zsh'
+[15.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/cpp02_service/share/colcon-core/packages/cpp02_service)
+[16.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/exam/build/cpp03_action -- -j12 -l12
+[16.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/cpp03_action': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/exam/build/cpp03_action
+[16.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_action)
+[16.513s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action' for CMake module files
+[16.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/exam/build/cpp03_action
+[16.514s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action' for CMake config files
+[16.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_action', 'cmake_prefix_path')
+[16.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.ps1'
+[16.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.dsv'
+[16.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.sh'
+[16.517s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action/lib'
+[16.517s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action/bin'
+[16.517s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action/lib/pkgconfig/cpp03_action.pc'
+[16.518s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action/lib/python3.10/site-packages'
+[16.518s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action/bin'
+[16.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp03_action/share/cpp03_action/package.ps1'
+[16.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/cpp03_action/share/cpp03_action/package.dsv'
+[16.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp03_action/share/cpp03_action/package.sh'
+[16.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp03_action/share/cpp03_action/package.bash'
+[16.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp03_action/share/cpp03_action/package.zsh'
+[16.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/cpp03_action/share/colcon-core/packages/cpp03_action)
+[16.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_action)
+[16.525s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action' for CMake module files
+[16.526s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action' for CMake config files
+[16.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_action', 'cmake_prefix_path')
+[16.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.ps1'
+[16.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.dsv'
+[16.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.sh'
+[16.528s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action/lib'
+[16.529s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action/bin'
+[16.529s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action/lib/pkgconfig/cpp03_action.pc'
+[16.529s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action/lib/python3.10/site-packages'
+[16.529s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp03_action/bin'
+[16.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp03_action/share/cpp03_action/package.ps1'
+[16.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/cpp03_action/share/cpp03_action/package.dsv'
+[16.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp03_action/share/cpp03_action/package.sh'
+[16.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp03_action/share/cpp03_action/package.bash'
+[16.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp03_action/share/cpp03_action/package.zsh'
+[16.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/cpp03_action/share/colcon-core/packages/cpp03_action)
+[22.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/exam/build/cpp01_topic -- -j12 -l12
+[22.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/exam/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/exam/build/cpp01_topic
+[22.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[22.762s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic' for CMake module files
+[22.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/exam/build/cpp01_topic
+[22.764s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic' for CMake config files
+[22.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[22.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[22.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[22.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[22.769s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic/lib'
+[22.769s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic/bin'
+[22.770s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[22.770s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic/lib/python3.10/site-packages'
+[22.771s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic/bin'
+[22.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[22.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[22.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.sh'
+[22.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.bash'
+[22.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[22.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[22.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[22.776s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic' for CMake module files
+[22.777s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic' for CMake config files
+[22.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[22.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[22.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[22.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[22.779s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic/lib'
+[22.780s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic/bin'
+[22.780s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[22.780s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic/lib/python3.10/site-packages'
+[22.780s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp01_topic/bin'
+[22.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[22.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[22.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.sh'
+[22.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.bash'
+[22.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[22.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[23.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp06_exercise)
+[23.631s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp06_exercise' for CMake module files
+[23.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/exam/build/cpp06_exercise' returned '2': CMAKE_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12
+[23.632s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp06_exercise' for CMake config files
+[23.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp06_exercise', 'cmake_prefix_path')
+[23.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/hook/cmake_prefix_path.ps1'
+[23.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/hook/cmake_prefix_path.dsv'
+[23.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/hook/cmake_prefix_path.sh'
+[23.636s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp06_exercise/lib'
+[23.636s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp06_exercise/bin'
+[23.636s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp06_exercise/lib/pkgconfig/cpp06_exercise.pc'
+[23.637s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp06_exercise/lib/python3.10/site-packages'
+[23.637s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/exam/install/cpp06_exercise/bin'
+[23.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.ps1'
+[23.638s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.dsv'
+[23.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.sh'
+[23.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.bash'
+[23.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.zsh'
+[23.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/exam/install/cpp06_exercise/share/colcon-core/packages/cpp06_exercise)
+[23.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[23.653s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.691s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.691s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.692s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.747s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.748s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/exam/install/local_setup.ps1'
+[23.749s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/exam/install/_local_setup_util_ps1.py'
+[23.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/exam/install/setup.ps1'
+[23.754s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/exam/install/local_setup.sh'
+[23.755s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/exam/install/_local_setup_util_sh.py'
+[23.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/exam/install/setup.sh'
+[23.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/exam/install/local_setup.bash'
+[23.758s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/exam/install/setup.bash'
+[23.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/exam/install/local_setup.zsh'
+[23.761s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/exam/install/setup.zsh'

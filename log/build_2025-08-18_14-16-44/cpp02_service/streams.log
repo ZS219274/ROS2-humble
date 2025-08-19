@@ -1,0 +1,74 @@
+[0.077s] Invoking command in '/home/ros2/exam/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ros2/exam/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/ros2/exam/install/cpp02_service
+[0.296s] -- The C compiler identification is GNU 11.4.0
+[0.607s] -- The CXX compiler identification is GNU 11.4.0
+[0.648s] -- Detecting C compiler ABI info
+[0.937s] -- Detecting C compiler ABI info - done
+[0.956s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.956s] -- Detecting C compile features
+[0.956s] -- Detecting C compile features - done
+[0.964s] -- Detecting CXX compiler ABI info
+[1.439s] -- Detecting CXX compiler ABI info - done
+[1.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.459s] -- Detecting CXX compile features
+[1.472s] -- Detecting CXX compile features - done
+[1.473s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.165s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.655s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[2.824s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.845s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.878s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.926s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.988s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.149s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.163s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.626s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.734s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.920s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.949s] -- Looking for pthread.h
+[4.451s] -- Looking for pthread.h - found
+[4.456s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.201s] -- Found Threads: TRUE  
+[5.483s] -- Found demo_interfaces_base: 0.0.0 (/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake)
+[5.699s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.186s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.187s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/exam/cpp02_service/include>
+[6.189s] -- Configured cppcheck exclude dirs and/or files: 
+[6.189s] -- Added test 'lint_cmake' to check CMake code style
+[6.189s] -- Added test 'uncrustify' to check C / C++ code style
+[6.189s] -- Configured uncrustify additional arguments: 
+[6.189s] -- Added test 'xmllint' to check XML markup files
+[6.197s] -- Configuring done
+[6.326s] -- Generating done
+[6.365s] -- Build files have been written to: /home/ros2/exam/build/cpp02_service
+[6.411s] Invoked command in '/home/ros2/exam/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ros2/exam/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/ros2/exam/install/cpp02_service
+[6.413s] Invoking command in '/home/ros2/exam/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/exam/build/cpp02_service -- -j12 -l12
+[6.932s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_client.dir/src/demo01_client.cpp.o[0m
+[7.031s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[36.921s] [ 75%] [32m[1mLinking CXX executable demo01_client[0m
+[37.426s] [ 75%] Built target demo01_client
+[38.566s] [100%] [32m[1mLinking CXX executable demo01_server[0m
+[39.026s] [100%] Built target demo01_server
+[39.110s] Invoked command in '/home/ros2/exam/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/exam/build/cpp02_service -- -j12 -l12
+[39.125s] Invoking command in '/home/ros2/exam/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/exam/build/cpp02_service
+[39.155s] -- Install configuration: ""
+[39.158s] -- Installing: /home/ros2/exam/install/cpp02_service/lib/cpp02_service/demo01_server
+[39.159s] -- Set runtime path of "/home/ros2/exam/install/cpp02_service/lib/cpp02_service/demo01_server" to ""
+[39.159s] -- Installing: /home/ros2/exam/install/cpp02_service/lib/cpp02_service/demo01_client
+[39.173s] -- Set runtime path of "/home/ros2/exam/install/cpp02_service/lib/cpp02_service/demo01_client" to ""
+[39.183s] -- Installing: /home/ros2/exam/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[39.187s] -- Installing: /home/ros2/exam/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[39.187s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[39.188s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[39.188s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/environment/path.sh
+[39.188s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[39.194s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/local_setup.bash
+[39.195s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/local_setup.sh
+[39.195s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[39.205s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[39.217s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/package.dsv
+[39.219s] -- Installing: /home/ros2/exam/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[39.219s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[39.219s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[39.219s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/package.xml
+[39.249s] Invoked command in '/home/ros2/exam/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp06_exercise:/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp03_action:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/home/ros2/exam/install/cpp05_time:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:/home/ros2/exam/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/exam/build/cpp02_service

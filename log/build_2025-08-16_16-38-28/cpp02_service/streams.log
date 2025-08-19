@@ -1,0 +1,24 @@
+[0.039s] Invoking command in '/home/ros2/exam/build/cpp02_service': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/exam/build/cpp02_service -- -j12 -l12
+[0.140s] [ 50%] Built target demo01_server
+[0.143s] [100%] Built target demo01_client
+[0.157s] Invoked command in '/home/ros2/exam/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/exam/build/cpp02_service -- -j12 -l12
+[0.162s] Invoking command in '/home/ros2/exam/build/cpp02_service': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/exam/build/cpp02_service
+[0.169s] -- Install configuration: ""
+[0.171s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/lib/cpp02_service/demo01_server
+[0.172s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/lib/cpp02_service/demo01_client
+[0.172s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[0.172s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[0.174s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[0.174s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[0.175s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/cpp02_service/environment/path.sh
+[0.177s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[0.178s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/cpp02_service/local_setup.bash
+[0.179s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/cpp02_service/local_setup.sh
+[0.179s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[0.179s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[0.180s] -- Installing: /home/ros2/exam/install/cpp02_service/share/cpp02_service/package.dsv
+[0.180s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[0.180s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[0.180s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[0.180s] -- Up-to-date: /home/ros2/exam/install/cpp02_service/share/cpp02_service/package.xml
+[0.204s] Invoked command in '/home/ros2/exam/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/exam/build/cpp02_service

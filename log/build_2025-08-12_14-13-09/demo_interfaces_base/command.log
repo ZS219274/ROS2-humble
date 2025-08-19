@@ -1,0 +1,4 @@
+Invoking command in '/home/ros2/exam/build/demo_interfaces_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/demo_interfaces_base -- -j12 -l12
+Invoked command in '/home/ros2/exam/build/demo_interfaces_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/demo_interfaces_base -- -j12 -l12
+Invoking command in '/home/ros2/exam/build/demo_interfaces_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/demo_interfaces_base
+Invoked command in '/home/ros2/exam/build/demo_interfaces_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/demo_interfaces_base

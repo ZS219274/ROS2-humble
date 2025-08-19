@@ -1,0 +1,28 @@
+[0.023s] Invoking command in '/home/ros2/exam/build/cpp06_exercise': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target exer01_pub_sub[0m
+[0.147s] [ 50%] [32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o[0m
+[12.368s] [100%] [32m[1mLinking CXX executable exer01_pub_sub[0m
+[13.518s] [100%] Built target exer01_pub_sub
+[13.537s] Invoked command in '/home/ros2/exam/build/cpp06_exercise' returned '0': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12
+[13.568s] Invoking command in '/home/ros2/exam/build/cpp06_exercise': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/exam/build/cpp06_exercise
+[13.639s] -- Install configuration: ""
+[13.663s] -- Installing: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer01_pub_sub
+[13.681s] -- Set runtime path of "/home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer01_pub_sub" to ""
+[13.681s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch
+[13.681s] -- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch/exer01_pub_sub_launch.py
+[13.682s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/package_run_dependencies/cpp06_exercise
+[13.682s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/parent_prefix_path/cpp06_exercise
+[13.682s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/ament_prefix_path.sh
+[13.682s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/ament_prefix_path.dsv
+[13.683s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/path.sh
+[13.683s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/path.dsv
+[13.683s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.bash
+[13.684s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.sh
+[13.684s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.zsh
+[13.684s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.dsv
+[13.684s] -- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.dsv
+[13.686s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/packages/cpp06_exercise
+[13.686s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/cmake/cpp06_exerciseConfig.cmake
+[13.686s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/cmake/cpp06_exerciseConfig-version.cmake
+[13.687s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.xml
+[13.702s] Invoked command in '/home/ros2/exam/build/cpp06_exercise' returned '0': AMENT_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/exam/build/cpp06_exercise

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from demo_interfaces_base/srv/Distance.srv
+// generated code does not contain a copyright notice
+
+
+module demo_interfaces_base {
+  module srv {
+    struct Distance_Request {
+      float x;
+
+      float y;
+
+      float theta;
+    };
+    struct Distance_Response {
+      float distance;
+    };
+  };
+};

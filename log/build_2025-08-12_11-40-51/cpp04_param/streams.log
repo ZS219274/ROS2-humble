@@ -1,0 +1,50 @@
+[0.035s] Invoking command in '/home/ros2/exam/build/cpp04_param': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp04_param -- -j12 -l12
+[0.124s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.282s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.316s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.318s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.326s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.336s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.397s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.399s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.524s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.575s] -- Found demo_interfaces_base: 0.0.0 (/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake)
+[0.584s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.668s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.668s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/exam/cpp04_param/include>
+[0.669s] -- Configured cppcheck exclude dirs and/or files: 
+[0.669s] -- Added test 'lint_cmake' to check CMake code style
+[0.671s] -- Added test 'uncrustify' to check C / C++ code style
+[0.671s] -- Configured uncrustify additional arguments: 
+[0.671s] -- Added test 'xmllint' to check XML markup files
+[0.673s] -- Configuring done
+[0.709s] -- Generating done
+[0.719s] -- Build files have been written to: /home/ros2/exam/build/cpp04_param
+[0.763s] [35m[1mConsolidate compiler generated dependencies of target demo01_param_server[0m
+[0.786s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_param_client.dir/src/demo01_param_client.cpp.o[0m
+[0.790s] [ 75%] Built target demo01_param_server
+[5.907s] [100%] [32m[1mLinking CXX executable demo01_param_client[0m
+[6.171s] [100%] Built target demo01_param_client
+[6.200s] Invoked command in '/home/ros2/exam/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp04_param -- -j12 -l12
+[6.218s] Invoking command in '/home/ros2/exam/build/cpp04_param': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp04_param
+[6.231s] -- Install configuration: ""
+[6.231s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[6.232s] -- Installing: /home/ros2/exam/install/cpp04_param/lib/cpp04_param/demo01_param_client
+[6.233s] -- Set runtime path of "/home/ros2/exam/install/cpp04_param/lib/cpp04_param/demo01_param_client" to ""
+[6.233s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[6.233s] -- Installing: /home/ros2/exam/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[6.233s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[6.234s] -- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[6.235s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/path.sh
+[6.235s] -- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[6.235s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.bash
+[6.235s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.sh
+[6.235s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[6.235s] -- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[6.236s] -- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/package.dsv
+[6.236s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[6.237s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[6.237s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[6.237s] -- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/package.xml
+[6.240s] Invoked command in '/home/ros2/exam/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp04_param:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp04_param

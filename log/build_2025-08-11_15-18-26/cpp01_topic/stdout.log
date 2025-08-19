@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_sub_str[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo01_pub_str.dir/src/demo01_pub_str.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_sub_str.dir/src/demo01_sub_str.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable demo01_pub_str[0m
+[ 75%] Built target demo01_pub_str

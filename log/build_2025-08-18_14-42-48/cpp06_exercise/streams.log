@@ -1,0 +1,43 @@
+[0.068s] Invoking command in '/home/ros2/exam/build/cpp06_exercise': AMENT_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/turtlesim/lib:/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/turtlesim/local/lib/python3.10/dist-packages:/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target exer03_action_client[0m
+[0.167s] [ 20%] Built target exer01_pub_sub
+[0.171s] [ 40%] Built target exer02_service
+[0.174s] [ 60%] Built target exer02_client
+[0.174s] [ 70%] [32mBuilding CXX object CMakeFiles/exer03_action_server.dir/src/exer03_action_server.cpp.o[0m
+[0.179s] [ 80%] [32mBuilding CXX object CMakeFiles/exer03_action_client.dir/src/exer03_action_client.cpp.o[0m
+[6.309s] [ 90%] [32m[1mLinking CXX executable exer03_action_client[0m
+[6.464s] [ 90%] Built target exer03_action_client
+[7.301s] [100%] [32m[1mLinking CXX executable exer03_action_server[0m
+[7.519s] [100%] Built target exer03_action_server
+[7.535s] Invoked command in '/home/ros2/exam/build/cpp06_exercise' returned '0': AMENT_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/turtlesim/lib:/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/turtlesim/local/lib/python3.10/dist-packages:/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/exam/build/cpp06_exercise -- -j12 -l12
+[7.566s] Invoking command in '/home/ros2/exam/build/cpp06_exercise': AMENT_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/turtlesim/lib:/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/turtlesim/local/lib/python3.10/dist-packages:/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/exam/build/cpp06_exercise
+[7.580s] -- Install configuration: ""
+[7.580s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer01_pub_sub
+[7.581s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer02_client
+[7.582s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer02_service
+[7.582s] -- Installing: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer03_action_client
+[7.584s] -- Set runtime path of "/home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer03_action_client" to ""
+[7.584s] -- Installing: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer03_action_server
+[7.587s] -- Set runtime path of "/home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer03_action_server" to ""
+[7.588s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch
+[7.588s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch/exer04_action_server_launch.py
+[7.588s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch/exer01_pub_sub_launch.py
+[7.589s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch/exer03_client_launch.py
+[7.589s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch/exer05_action_client_launch.py
+[7.589s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch/exer02_service_launch.py
+[7.589s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/package_run_dependencies/cpp06_exercise
+[7.589s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/parent_prefix_path/cpp06_exercise
+[7.589s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/ament_prefix_path.sh
+[7.589s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/ament_prefix_path.dsv
+[7.590s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/path.sh
+[7.590s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/path.dsv
+[7.590s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.bash
+[7.590s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.sh
+[7.590s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.zsh
+[7.590s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.dsv
+[7.590s] -- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.dsv
+[7.590s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/packages/cpp06_exercise
+[7.591s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/cmake/cpp06_exerciseConfig.cmake
+[7.591s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/cmake/cpp06_exerciseConfig-version.cmake
+[7.592s] -- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.xml
+[7.594s] Invoked command in '/home/ros2/exam/build/cpp06_exercise' returned '0': AMENT_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/exam/install/turtlesim:/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/exam/install/turtlesim/lib:/home/ros2/exam/install/demo_interfaces_base/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/exam/install/turtlesim/local/lib/python3.10/dist-packages:/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/exam/build/cpp06_exercise

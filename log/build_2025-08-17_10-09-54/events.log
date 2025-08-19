@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000485] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000585] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000649] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000709] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000730] (-) JobUnselected: {'identifier': 'cpp05_time'}
+[0.000772] (-) JobUnselected: {'identifier': 'demo_interfaces_base'}
+[0.000822] (cpp06_exercise) JobQueued: {'identifier': 'cpp06_exercise', 'dependencies': OrderedDict([('demo_interfaces_base', '/home/ros2/exam/install/demo_interfaces_base')])}
+[0.000895] (cpp06_exercise) JobStarted: {'identifier': 'cpp06_exercise'}
+[0.010084] (cpp06_exercise) JobProgress: {'identifier': 'cpp06_exercise', 'progress': 'cmake'}
+[0.011906] (cpp06_exercise) JobProgress: {'identifier': 'cpp06_exercise', 'progress': 'build'}
+[0.012027] (cpp06_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/exam/build/cpp06_exercise', '--', '-j12', '-l12'], 'cwd': '/home/ros2/exam/build/cpp06_exercise', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros2'), ('SSH_CLIENT', '192.168.174.1 50662 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-360a4e4fd251bfce169a4ddf857c7d25d1ad40da/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/exam/install/demo_interfaces_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-360a4e4fd251bfce169a4ddf857c7d25d1ad40da/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-192a617b-4831-47f5-9b3b-a1a5abd6b362.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-360a4e4fd251bfce169a4ddf857c7d25d1ad40da/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-360a4e4fd251bfce169a4ddf857c7d25d1ad40da/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/cli/servers/Stable-360a4e4fd251bfce169a4ddf857c7d25d1ad40da/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1042b64de132a033.txt'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d55f8e8061.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/exam/build/cpp06_exercise'), ('SSH_CONNECTION', '192.168.174.1 50662 192.168.174.156 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble')]), 'shell': False}
+[0.058457] (-) TimerEvent: {}
+[0.112519] (cpp06_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer01_pub_sub\x1b[0m\n'}
+[0.147742] (cpp06_exercise) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o\x1b[0m\n'}
+[0.158840] (-) TimerEvent: {}
+[0.259352] (-) TimerEvent: {}
+[0.359832] (-) TimerEvent: {}
+[0.460332] (-) TimerEvent: {}
+[0.560873] (-) TimerEvent: {}
+[0.661515] (-) TimerEvent: {}
+[0.762079] (-) TimerEvent: {}
+[0.862539] (-) TimerEvent: {}
+[0.963116] (-) TimerEvent: {}
+[1.063648] (-) TimerEvent: {}
+[1.164193] (-) TimerEvent: {}
+[1.264752] (-) TimerEvent: {}
+[1.365255] (-) TimerEvent: {}
+[1.466029] (-) TimerEvent: {}
+[1.566492] (-) TimerEvent: {}
+[1.666997] (-) TimerEvent: {}
+[1.767702] (-) TimerEvent: {}
+[1.868198] (-) TimerEvent: {}
+[1.968700] (-) TimerEvent: {}
+[2.069381] (-) TimerEvent: {}
+[2.170024] (-) TimerEvent: {}
+[2.270613] (-) TimerEvent: {}
+[2.371619] (-) TimerEvent: {}
+[2.472479] (-) TimerEvent: {}
+[2.572966] (-) TimerEvent: {}
+[2.673663] (-) TimerEvent: {}
+[2.774221] (-) TimerEvent: {}
+[2.874895] (-) TimerEvent: {}
+[2.975367] (-) TimerEvent: {}
+[3.075900] (-) TimerEvent: {}
+[3.176439] (-) TimerEvent: {}
+[3.277225] (-) TimerEvent: {}
+[3.377854] (-) TimerEvent: {}
+[3.478420] (-) TimerEvent: {}
+[3.578955] (-) TimerEvent: {}
+[3.679444] (-) TimerEvent: {}
+[3.779961] (-) TimerEvent: {}
+[3.880571] (-) TimerEvent: {}
+[3.981118] (-) TimerEvent: {}
+[4.081694] (-) TimerEvent: {}
+[4.182268] (-) TimerEvent: {}
+[4.282812] (-) TimerEvent: {}
+[4.383310] (-) TimerEvent: {}
+[4.484010] (-) TimerEvent: {}
+[4.584501] (-) TimerEvent: {}
+[4.685056] (-) TimerEvent: {}
+[4.785723] (-) TimerEvent: {}
+[4.886546] (-) TimerEvent: {}
+[4.987057] (-) TimerEvent: {}
+[5.087695] (-) TimerEvent: {}
+[5.188409] (-) TimerEvent: {}
+[5.289139] (-) TimerEvent: {}
+[5.390138] (-) TimerEvent: {}
+[5.490875] (-) TimerEvent: {}
+[5.591611] (-) TimerEvent: {}
+[5.692275] (-) TimerEvent: {}
+[5.792949] (-) TimerEvent: {}
+[5.893745] (-) TimerEvent: {}
+[5.994480] (-) TimerEvent: {}
+[6.095630] (-) TimerEvent: {}
+[6.196470] (-) TimerEvent: {}
+[6.297027] (-) TimerEvent: {}
+[6.397781] (-) TimerEvent: {}
+[6.498594] (-) TimerEvent: {}
+[6.599329] (-) TimerEvent: {}
+[6.701419] (-) TimerEvent: {}
+[6.802291] (-) TimerEvent: {}
+[6.902980] (-) TimerEvent: {}
+[7.004571] (-) TimerEvent: {}
+[7.105195] (-) TimerEvent: {}
+[7.205811] (-) TimerEvent: {}
+[7.306273] (-) TimerEvent: {}
+[7.407005] (-) TimerEvent: {}
+[7.507795] (-) TimerEvent: {}
+[7.608550] (-) TimerEvent: {}
+[7.709791] (-) TimerEvent: {}
+[7.810521] (-) TimerEvent: {}
+[7.910973] (-) TimerEvent: {}
+[8.011717] (-) TimerEvent: {}
+[8.112200] (-) TimerEvent: {}
+[8.212828] (-) TimerEvent: {}
+[8.313403] (-) TimerEvent: {}
+[8.414011] (-) TimerEvent: {}
+[8.514561] (-) TimerEvent: {}
+[8.615126] (-) TimerEvent: {}
+[8.715586] (-) TimerEvent: {}
+[8.816064] (-) TimerEvent: {}
+[8.916910] (-) TimerEvent: {}
+[9.017462] (-) TimerEvent: {}
+[9.117949] (-) TimerEvent: {}
+[9.218492] (-) TimerEvent: {}
+[9.318976] (-) TimerEvent: {}
+[9.419663] (-) TimerEvent: {}
+[9.520088] (-) TimerEvent: {}
+[9.620545] (-) TimerEvent: {}
+[9.721009] (-) TimerEvent: {}
+[9.821474] (-) TimerEvent: {}
+[9.921861] (-) TimerEvent: {}
+[10.022400] (-) TimerEvent: {}
+[10.122941] (-) TimerEvent: {}
+[10.223437] (-) TimerEvent: {}
+[10.323924] (-) TimerEvent: {}
+[10.424498] (-) TimerEvent: {}
+[10.525165] (-) TimerEvent: {}
+[10.625852] (-) TimerEvent: {}
+[10.726574] (-) TimerEvent: {}
+[10.827346] (-) TimerEvent: {}
+[10.928111] (-) TimerEvent: {}
+[11.029012] (-) TimerEvent: {}
+[11.130256] (-) TimerEvent: {}
+[11.231148] (-) TimerEvent: {}
+[11.332434] (-) TimerEvent: {}
+[11.433169] (-) TimerEvent: {}
+[11.533869] (-) TimerEvent: {}
+[11.634424] (-) TimerEvent: {}
+[11.734887] (-) TimerEvent: {}
+[11.835488] (-) TimerEvent: {}
+[11.936046] (-) TimerEvent: {}
+[12.036680] (-) TimerEvent: {}
+[12.137171] (-) TimerEvent: {}
+[12.237761] (-) TimerEvent: {}
+[12.338316] (-) TimerEvent: {}
+[12.368278] (cpp06_exercise) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exer01_pub_sub\x1b[0m\n'}
+[12.438623] (-) TimerEvent: {}
+[12.539168] (-) TimerEvent: {}
+[12.639729] (-) TimerEvent: {}
+[12.740336] (-) TimerEvent: {}
+[12.841023] (-) TimerEvent: {}
+[12.941672] (-) TimerEvent: {}
+[13.042415] (-) TimerEvent: {}
+[13.143079] (-) TimerEvent: {}
+[13.243786] (-) TimerEvent: {}
+[13.344481] (-) TimerEvent: {}
+[13.444983] (-) TimerEvent: {}
+[13.518524] (cpp06_exercise) StdoutLine: {'line': b'[100%] Built target exer01_pub_sub\n'}
+[13.537165] (cpp06_exercise) CommandEnded: {'returncode': 0}
+[13.544803] (cpp06_exercise) JobProgress: {'identifier': 'cpp06_exercise', 'progress': 'install'}
+[13.545088] (-) TimerEvent: {}
+[13.566824] (cpp06_exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/exam/build/cpp06_exercise'], 'cwd': '/home/ros2/exam/build/cpp06_exercise', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros2'), ('SSH_CLIENT', '192.168.174.1 50662 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-360a4e4fd251bfce169a4ddf857c7d25d1ad40da/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/exam/install/demo_interfaces_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-360a4e4fd251bfce169a4ddf857c7d25d1ad40da/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-192a617b-4831-47f5-9b3b-a1a5abd6b362.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-360a4e4fd251bfce169a4ddf857c7d25d1ad40da/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-360a4e4fd251bfce169a4ddf857c7d25d1ad40da/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/cli/servers/Stable-360a4e4fd251bfce169a4ddf857c7d25d1ad40da/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1042b64de132a033.txt'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d55f8e8061.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/exam/build/cpp06_exercise'), ('SSH_CONNECTION', '192.168.174.1 50662 192.168.174.156 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble')]), 'shell': False}
+[13.639782] (cpp06_exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.645293] (-) TimerEvent: {}
+[13.663960] (cpp06_exercise) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer01_pub_sub\n'}
+[13.681176] (cpp06_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/exam/install/cpp06_exercise/lib/cpp06_exercise/exer01_pub_sub" to ""\n'}
+[13.681589] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch\n'}
+[13.681708] (cpp06_exercise) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/launch/exer01_pub_sub_launch.py\n'}
+[13.682140] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/package_run_dependencies/cpp06_exercise\n'}
+[13.682620] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/parent_prefix_path/cpp06_exercise\n'}
+[13.682746] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/ament_prefix_path.sh\n'}
+[13.683094] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/ament_prefix_path.dsv\n'}
+[13.683238] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/path.sh\n'}
+[13.683655] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/environment/path.dsv\n'}
+[13.683896] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.bash\n'}
+[13.684248] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.sh\n'}
+[13.684511] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.zsh\n'}
+[13.684644] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/local_setup.dsv\n'}
+[13.684724] (cpp06_exercise) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.dsv\n'}
+[13.686175] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/ament_index/resource_index/packages/cpp06_exercise\n'}
+[13.686764] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/cmake/cpp06_exerciseConfig.cmake\n'}
+[13.686952] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/cmake/cpp06_exerciseConfig-version.cmake\n'}
+[13.687274] (cpp06_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp06_exercise/share/cpp06_exercise/package.xml\n'}
+[13.701456] (cpp06_exercise) CommandEnded: {'returncode': 0}
+[13.743274] (cpp06_exercise) JobEnded: {'identifier': 'cpp06_exercise', 'rc': 0}
+[13.746088] (-) TimerEvent: {}
+[13.746353] (-) EventReactorShutdown: {}

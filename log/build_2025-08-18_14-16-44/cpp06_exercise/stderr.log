@@ -1,0 +1,14 @@
+[01m[K/home/ros2/exam/cpp06_exercise/src/exer03_action_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdemo_interfaces_base/action/realtimedistance.hpp: No such file or directory
+    2 | #include [01;31m[K"demo_interfaces_base/action/realtimedistance.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/exer03_action_client.dir/build.make:76: CMakeFiles/exer03_action_client.dir/src/exer03_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/exer03_action_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/ros2/exam/cpp06_exercise/src/exer03_action_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kdemo_interfaces_base/action/realtimedistance.hpp: No such file or directory
+    3 | #include [01;31m[K"demo_interfaces_base/action/realtimedistance.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/exer03_action_server.dir/build.make:76: CMakeFiles/exer03_action_server.dir/src/exer03_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/exer03_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

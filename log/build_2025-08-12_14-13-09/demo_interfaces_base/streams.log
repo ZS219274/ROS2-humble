@@ -1,0 +1,320 @@
+[0.020s] Invoking command in '/home/ros2/exam/build/demo_interfaces_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/demo_interfaces_base -- -j12 -l12
+[0.112s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.295s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.316s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.202s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.993s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.051s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.051s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.051s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.107s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.242s] -- Added test 'lint_cmake' to check CMake code style
+[2.245s] -- Added test 'xmllint' to check XML markup files
+[2.283s] -- Configuring done
+[2.461s] -- Generating done
+[2.500s] -- Build files have been written to: /home/ros2/exam/build/demo_interfaces_base
+[2.539s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.564s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.585s] [  4%] Built target ament_cmake_python_copy_demo_interfaces_base
+[2.917s] running egg_info
+[2.918s] writing demo_interfaces_base.egg-info/PKG-INFO
+[2.918s] writing dependency_links to demo_interfaces_base.egg-info/dependency_links.txt
+[2.918s] writing top-level names to demo_interfaces_base.egg-info/top_level.txt
+[2.922s] reading manifest file 'demo_interfaces_base.egg-info/SOURCES.txt'
+[2.922s] writing manifest file 'demo_interfaces_base.egg-info/SOURCES.txt'
+[2.959s] [  4%] Built target ament_cmake_python_build_demo_interfaces_base_egg
+[3.353s] [35m[1mConsolidate compiler generated dependencies of target demo_interfaces_base__rosidl_generator_c[0m
+[3.375s] [  6%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_generator_c.dir/rosidl_generator_c/demo_interfaces_base/msg/detail/student__functions.c.o[0m
+[3.377s] [  8%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_generator_c.dir/rosidl_generator_c/demo_interfaces_base/srv/detail/calculation__functions.c.o[0m
+[3.380s] [ 10%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_generator_c.dir/rosidl_generator_c/demo_interfaces_base/action/detail/action__functions.c.o[0m
+[3.432s] [ 10%] Built target demo_interfaces_base__cpp
+[3.449s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.449s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.449s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.599s] [ 19%] [32m[1mLinking C shared library libdemo_interfaces_base__rosidl_generator_c.so[0m
+[3.664s] [ 19%] Built target demo_interfaces_base__rosidl_generator_c
+[3.679s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.683s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.683s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.901s] [35m[1mConsolidate compiler generated dependencies of target demo_interfaces_base__rosidl_typesupport_cpp[0m
+[3.924s] [ 29%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/demo_interfaces_base/srv/calculation__type_support.cpp.o[0m
+[3.924s] [ 31%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/demo_interfaces_base/msg/student__type_support.cpp.o[0m
+[3.924s] [ 31%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/demo_interfaces_base/action/action__type_support.cpp.o[0m
+[4.058s] [35m[1mConsolidate compiler generated dependencies of target demo_interfaces_base__rosidl_typesupport_introspection_cpp[0m
+[4.086s] [ 34%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/demo_interfaces_base/msg/detail/student__type_support.cpp.o[0m
+[4.086s] [ 36%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/demo_interfaces_base/srv/detail/calculation__type_support.cpp.o[0m
+[4.091s] [ 38%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/demo_interfaces_base/action/detail/action__type_support.cpp.o[0m
+[4.167s] [35m[1mConsolidate compiler generated dependencies of target demo_interfaces_base__rosidl_typesupport_c[0m
+[4.207s] [ 40%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_c.dir/rosidl_typesupport_c/demo_interfaces_base/msg/student__type_support.cpp.o[0m
+[4.209s] [ 42%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_c.dir/rosidl_typesupport_c/demo_interfaces_base/srv/calculation__type_support.cpp.o[0m
+[4.217s] [ 44%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_c.dir/rosidl_typesupport_c/demo_interfaces_base/action/action__type_support.cpp.o[0m
+[4.222s] [35m[1mConsolidate compiler generated dependencies of target demo_interfaces_base__rosidl_typesupport_fastrtps_cpp[0m
+[4.263s] [ 46%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/demo_interfaces_base/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[4.282s] [ 48%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/demo_interfaces_base/srv/detail/dds_fastrtps/calculation__type_support.cpp.o[0m
+[4.287s] [ 51%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/demo_interfaces_base/action/detail/dds_fastrtps/action__type_support.cpp.o[0m
+[4.399s] [ 53%] [32m[1mLinking CXX shared library libdemo_interfaces_base__rosidl_typesupport_c.so[0m
+[4.433s] [35m[1mConsolidate compiler generated dependencies of target demo_interfaces_base__rosidl_typesupport_introspection_c[0m
+[4.456s] [ 55%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/demo_interfaces_base/msg/detail/student__type_support.c.o[0m
+[4.457s] [ 57%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/demo_interfaces_base/srv/detail/calculation__type_support.c.o[0m
+[4.457s] [ 59%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/demo_interfaces_base/action/detail/action__type_support.c.o[0m
+[4.457s] [35m[1mConsolidate compiler generated dependencies of target demo_interfaces_base__rosidl_typesupport_fastrtps_c[0m
+[4.493s] [ 61%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/demo_interfaces_base/msg/detail/student__type_support_c.cpp.o[0m
+[4.507s] [ 61%] Built target demo_interfaces_base__rosidl_typesupport_c
+[4.535s] [ 63%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/demo_interfaces_base/srv/detail/calculation__type_support_c.cpp.o[0m
+[4.546s] [ 65%] [32mBuilding CXX object CMakeFiles/demo_interfaces_base__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/demo_interfaces_base/action/detail/action__type_support_c.cpp.o[0m
+[4.626s] [ 68%] [32m[1mLinking C shared library libdemo_interfaces_base__rosidl_typesupport_introspection_c.so[0m
+[4.734s] [ 68%] Built target demo_interfaces_base__rosidl_typesupport_introspection_c
+[4.766s] [ 70%] [32m[1mLinking CXX shared library libdemo_interfaces_base__rosidl_typesupport_cpp.so[0m
+[4.855s] [ 70%] Built target demo_interfaces_base__rosidl_typesupport_cpp
+[5.144s] [ 72%] [32m[1mLinking CXX shared library libdemo_interfaces_base__rosidl_typesupport_introspection_cpp.so[0m
+[5.149s] [ 74%] [32m[1mLinking CXX shared library libdemo_interfaces_base__rosidl_typesupport_fastrtps_c.so[0m
+[5.267s] [ 74%] Built target demo_interfaces_base__rosidl_typesupport_introspection_cpp
+[5.273s] [ 74%] Built target demo_interfaces_base__rosidl_typesupport_fastrtps_c
+[5.334s] [ 76%] [32m[1mLinking CXX shared library libdemo_interfaces_base__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.562s] [ 76%] Built target demo_interfaces_base__rosidl_typesupport_fastrtps_cpp
+[5.625s] [ 76%] Built target demo_interfaces_base
+[5.653s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.727s] [ 78%] Built target demo_interfaces_base__py
+[6.744s] [35m[1mConsolidate compiler generated dependencies of target demo_interfaces_base__rosidl_generator_py[0m
+[6.768s] [ 80%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_generator_py.dir/rosidl_generator_py/demo_interfaces_base/action/_action_s.c.o[0m
+[6.768s] [ 82%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_generator_py.dir/rosidl_generator_py/demo_interfaces_base/msg/_student_s.c.o[0m
+[6.769s] [ 85%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_generator_py.dir/rosidl_generator_py/demo_interfaces_base/srv/_calculation_s.c.o[0m
+[7.410s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/demo_interfaces_base/libdemo_interfaces_base__rosidl_generator_py.so[0m
+[7.485s] [ 87%] Built target demo_interfaces_base__rosidl_generator_py
+[7.500s] [35m[1mConsolidate compiler generated dependencies of target demo_interfaces_base__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.501s] [35m[1mConsolidate compiler generated dependencies of target demo_interfaces_base__rosidl_typesupport_introspection_c__pyext[0m
+[7.502s] [35m[1mConsolidate compiler generated dependencies of target demo_interfaces_base__rosidl_typesupport_c__pyext[0m
+[7.522s] [ 89%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/demo_interfaces_base/_demo_interfaces_base_s.ep.rosidl_typesupport_c.c.o[0m
+[7.523s] [ 93%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/demo_interfaces_base/_demo_interfaces_base_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.523s] [ 93%] [32mBuilding C object CMakeFiles/demo_interfaces_base__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/demo_interfaces_base/_demo_interfaces_base_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.678s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.695s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.725s] [100%] [32m[1mLinking C shared library rosidl_generator_py/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.744s] [100%] Built target demo_interfaces_base__rosidl_typesupport_fastrtps_c__pyext
+[7.760s] [100%] Built target demo_interfaces_base__rosidl_typesupport_c__pyext
+[7.786s] [100%] Built target demo_interfaces_base__rosidl_typesupport_introspection_c__pyext
+[7.807s] Invoked command in '/home/ros2/exam/build/demo_interfaces_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/demo_interfaces_base -- -j12 -l12
+[7.827s] Invoking command in '/home/ros2/exam/build/demo_interfaces_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/demo_interfaces_base
+[7.839s] -- Install configuration: ""
+[7.839s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/ament_index/resource_index/rosidl_interfaces/demo_interfaces_base
+[7.839s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base
+[7.840s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg
+[7.840s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/rosidl_generator_c__visibility_control.h
+[7.841s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/student.h
+[7.841s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail
+[7.841s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__struct.h
+[7.841s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__functions.h
+[7.841s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__functions.c
+[7.842s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__type_support.h
+[7.842s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv
+[7.842s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/calculation.h
+[7.842s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail
+[7.842s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__functions.c
+[7.842s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__type_support.h
+[7.842s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__struct.h
+[7.842s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__functions.h
+[7.843s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action
+[7.843s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/action.h
+[7.843s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail
+[7.843s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__functions.h
+[7.843s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__functions.c
+[7.843s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__struct.h
+[7.844s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__type_support.h
+[7.844s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/library_path.sh
+[7.844s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/library_path.dsv
+[7.846s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_generator_c.so
+[7.848s] -- Set runtime path of "/home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_generator_c.so" to ""
+[7.848s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base
+[7.848s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg
+[7.848s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail
+[7.848s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[7.849s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.849s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv
+[7.849s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail
+[7.849s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__rosidl_typesupport_fastrtps_c.h
+[7.849s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action
+[7.849s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail
+[7.849s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__rosidl_typesupport_fastrtps_c.h
+[7.849s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_fastrtps_c.so
+[7.850s] -- Set runtime path of "/home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_fastrtps_c.so" to ""
+[7.850s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base
+[7.851s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg
+[7.851s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail
+[7.851s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__rosidl_typesupport_introspection_c.h
+[7.851s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__type_support.c
+[7.852s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.852s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv
+[7.852s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail
+[7.852s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__rosidl_typesupport_introspection_c.h
+[7.852s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__type_support.c
+[7.852s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action
+[7.852s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail
+[7.852s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__rosidl_typesupport_introspection_c.h
+[7.853s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__type_support.c
+[7.853s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_introspection_c.so
+[7.853s] -- Set runtime path of "/home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_introspection_c.so" to ""
+[7.854s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_c.so
+[7.854s] -- Set runtime path of "/home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_c.so" to ""
+[7.854s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base
+[7.854s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg
+[7.855s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.855s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail
+[7.856s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__struct.hpp
+[7.856s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__traits.hpp
+[7.856s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__type_support.hpp
+[7.856s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__builder.hpp
+[7.857s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/student.hpp
+[7.857s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv
+[7.857s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/calculation.hpp
+[7.857s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail
+[7.858s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__traits.hpp
+[7.858s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__type_support.hpp
+[7.858s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__struct.hpp
+[7.858s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__builder.hpp
+[7.858s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action
+[7.859s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail
+[7.859s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__type_support.hpp
+[7.859s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__traits.hpp
+[7.859s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__builder.hpp
+[7.859s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__struct.hpp
+[7.859s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/action.hpp
+[7.859s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base
+[7.859s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg
+[7.859s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.860s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail
+[7.860s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[7.860s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/dds_fastrtps
+[7.860s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv
+[7.860s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail
+[7.860s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/dds_fastrtps
+[7.860s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__rosidl_typesupport_fastrtps_cpp.hpp
+[7.861s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action
+[7.861s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail
+[7.861s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__rosidl_typesupport_fastrtps_cpp.hpp
+[7.861s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/dds_fastrtps
+[7.861s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_fastrtps_cpp.so
+[7.861s] -- Set runtime path of "/home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.861s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base
+[7.862s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg
+[7.862s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail
+[7.862s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__type_support.cpp
+[7.863s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[7.863s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv
+[7.863s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail
+[7.863s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__type_support.cpp
+[7.863s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/srv/detail/calculation__rosidl_typesupport_introspection_cpp.hpp
+[7.864s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action
+[7.864s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail
+[7.864s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__type_support.cpp
+[7.864s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/include/demo_interfaces_base/demo_interfaces_base/action/detail/action__rosidl_typesupport_introspection_cpp.hpp
+[7.864s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_introspection_cpp.so
+[7.864s] -- Set runtime path of "/home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_introspection_cpp.so" to ""
+[7.864s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_cpp.so
+[7.865s] -- Set runtime path of "/home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_typesupport_cpp.so" to ""
+[7.865s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/pythonpath.sh
+[7.865s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/pythonpath.dsv
+[7.865s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base-0.0.0-py3.10.egg-info
+[7.865s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base-0.0.0-py3.10.egg-info/PKG-INFO
+[7.866s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base-0.0.0-py3.10.egg-info/top_level.txt
+[7.866s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.866s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.866s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base
+[7.867s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/msg
+[7.867s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/msg/_student_s.c
+[7.867s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/msg/_student.py
+[7.867s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/msg/__init__.py
+[7.868s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/srv
+[7.868s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/srv/__init__.py
+[7.868s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/srv/_calculation_s.c
+[7.868s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/srv/_calculation.py
+[7.911s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.912s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/libdemo_interfaces_base__rosidl_generator_py.so
+[7.912s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/__init__.py
+[7.913s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/action
+[7.913s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/action/_action_s.c
+[7.913s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/action/__init__.py
+[7.914s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/action/_action.py
+[7.914s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.914s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/_demo_interfaces_base_s.ep.rosidl_typesupport_introspection_c.c
+[7.915s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/_demo_interfaces_base_s.ep.rosidl_typesupport_c.c
+[7.915s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.916s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/_demo_interfaces_base_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.968s] Listing '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base'...
+[7.968s] Compiling '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/__init__.py'...
+[7.968s] Listing '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/action'...
+[7.968s] Compiling '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/action/__init__.py'...
+[7.968s] Compiling '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/action/_action.py'...
+[7.968s] Listing '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/msg'...
+[7.968s] Compiling '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/msg/__init__.py'...
+[7.968s] Compiling '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/msg/_student.py'...
+[7.968s] Listing '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/srv'...
+[7.968s] Compiling '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/srv/__init__.py'...
+[7.968s] Compiling '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/srv/_calculation.py'...
+[7.972s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.973s] -- Set runtime path of "/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.973s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.974s] -- Set runtime path of "/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.974s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.975s] -- Set runtime path of "/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages/demo_interfaces_base/demo_interfaces_base_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.975s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_generator_py.so
+[7.976s] -- Set runtime path of "/home/ros2/exam/install/demo_interfaces_base/lib/libdemo_interfaces_base__rosidl_generator_py.so" to ""
+[7.976s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/msg/Student.idl
+[7.977s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/srv/Calculation.idl
+[7.977s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/action/Action.idl
+[7.977s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/msg/Student.msg
+[7.977s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/srv/Calculation.srv
+[7.978s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/srv/Calculation_Request.msg
+[7.978s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/srv/Calculation_Response.msg
+[7.978s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/action/Action.action
+[7.978s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/ament_index/resource_index/package_run_dependencies/demo_interfaces_base
+[7.979s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/ament_index/resource_index/parent_prefix_path/demo_interfaces_base
+[7.979s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/ament_prefix_path.sh
+[7.979s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/ament_prefix_path.dsv
+[7.979s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/path.sh
+[7.979s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/environment/path.dsv
+[7.980s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/local_setup.bash
+[7.980s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/local_setup.sh
+[7.980s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/local_setup.zsh
+[7.980s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/local_setup.dsv
+[7.980s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.dsv
+[7.980s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/ament_index/resource_index/packages/demo_interfaces_base
+[7.980s] -- Old export file "/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_generator_cExport-noconfig.cmake].
+[7.981s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_generator_cExport.cmake
+[7.981s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_generator_cExport-noconfig.cmake
+[7.981s] -- Old export file "/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[7.982s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_typesupport_fastrtps_cExport.cmake
+[7.982s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.982s] -- Old export file "/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[7.982s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_introspection_cExport.cmake
+[7.983s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.983s] -- Old export file "/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_cExport-noconfig.cmake].
+[7.983s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_cExport.cmake
+[7.984s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_cExport-noconfig.cmake
+[7.984s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_generator_cppExport.cmake
+[7.985s] -- Old export file "/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[7.985s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.985s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.986s] -- Old export file "/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[7.986s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_introspection_cppExport.cmake
+[7.986s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.987s] -- Old export file "/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_cppExport-noconfig.cmake].
+[7.987s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_cppExport.cmake
+[7.987s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_base__rosidl_typesupport_cppExport-noconfig.cmake
+[7.988s] -- Old export file "/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_generator_pyExport-noconfig.cmake].
+[7.988s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_generator_pyExport.cmake
+[7.988s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/export_demo_interfaces_base__rosidl_generator_pyExport-noconfig.cmake
+[7.989s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/rosidl_cmake-extras.cmake
+[7.989s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.989s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.989s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/ament_cmake_export_libraries-extras.cmake
+[7.989s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/ament_cmake_export_targets-extras.cmake
+[7.989s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.989s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.989s] -- Installing: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_baseConfig.cmake
+[7.990s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake/demo_interfaces_baseConfig-version.cmake
+[7.990s] -- Up-to-date: /home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/package.xml
+[7.992s] Invoked command in '/home/ros2/exam/build/demo_interfaces_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/demo_interfaces_base

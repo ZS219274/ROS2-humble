@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000711] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000874] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000921] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000949] (-) JobUnselected: {'identifier': 'demo_interfaces_base'}
+[0.000967] (cpp04_param) JobQueued: {'identifier': 'cpp04_param', 'dependencies': OrderedDict([('demo_interfaces_base', '/home/ros2/exam/install/demo_interfaces_base')])}
+[0.001016] (cpp04_param) JobStarted: {'identifier': 'cpp04_param'}
+[0.019383] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'cmake'}
+[0.021084] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'build'}
+[0.021197] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/exam/build/cpp04_param', '--', '-j12', '-l12'], 'cwd': '/home/ros2/exam/build/cpp04_param', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros2'), ('SSH_CLIENT', '192.168.174.1 51167 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/exam/install/demo_interfaces_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2eea4cb4-4baa-48bf-9ee7-8fed114b8274.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d28d503539.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/exam/build/cpp04_param'), ('SSH_CONNECTION', '192.168.174.1 51167 192.168.174.156 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble')]), 'shell': False}
+[0.099071] (-) TimerEvent: {}
+[0.105169] (cpp04_param) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199256] (-) TimerEvent: {}
+[0.293711] (cpp04_param) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299602] (-) TimerEvent: {}
+[0.336235] (cpp04_param) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.339474] (cpp04_param) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.346325] (cpp04_param) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.356031] (cpp04_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.370343] (cpp04_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399763] (-) TimerEvent: {}
+[0.401978] (cpp04_param) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.403519] (cpp04_param) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499961] (-) TimerEvent: {}
+[0.525638] (cpp04_param) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.574268] (cpp04_param) StdoutLine: {'line': b'-- Found demo_interfaces_base: 0.0.0 (/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake)\n'}
+[0.600395] (-) TimerEvent: {}
+[0.625109] (cpp04_param) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700660] (-) TimerEvent: {}
+[0.715124] (cpp04_param) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.715384] (cpp04_param) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/exam/cpp04_param/include>\n'}
+[0.715459] (cpp04_param) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.715967] (cpp04_param) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.717011] (cpp04_param) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.717160] (cpp04_param) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.717440] (cpp04_param) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.718607] (cpp04_param) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.752804] (cpp04_param) StdoutLine: {'line': b'-- Generating done\n'}
+[0.765782] (cpp04_param) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/exam/build/cpp04_param\n'}
+[0.801033] (-) TimerEvent: {}
+[0.806463] (cpp04_param) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_param_client\x1b[0m\n'}
+[0.807726] (cpp04_param) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_param_server\x1b[0m\n'}
+[0.836237] (cpp04_param) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o\x1b[0m\n'}
+[0.836416] (cpp04_param) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_param_client.dir/src/demo01_param_client.cpp.o\x1b[0m\n'}
+[0.901249] (-) TimerEvent: {}
+[1.001828] (-) TimerEvent: {}
+[1.102395] (-) TimerEvent: {}
+[1.203095] (-) TimerEvent: {}
+[1.303659] (-) TimerEvent: {}
+[1.404160] (-) TimerEvent: {}
+[1.504672] (-) TimerEvent: {}
+[1.605212] (-) TimerEvent: {}
+[1.705646] (-) TimerEvent: {}
+[1.806140] (-) TimerEvent: {}
+[1.906631] (-) TimerEvent: {}
+[2.007074] (-) TimerEvent: {}
+[2.107458] (-) TimerEvent: {}
+[2.207980] (-) TimerEvent: {}
+[2.308478] (-) TimerEvent: {}
+[2.409090] (-) TimerEvent: {}
+[2.509715] (-) TimerEvent: {}
+[2.610366] (-) TimerEvent: {}
+[2.711046] (-) TimerEvent: {}
+[2.811516] (-) TimerEvent: {}
+[2.912211] (-) TimerEvent: {}
+[3.012921] (-) TimerEvent: {}
+[3.113757] (-) TimerEvent: {}
+[3.214318] (-) TimerEvent: {}
+[3.315177] (-) TimerEvent: {}
+[3.415873] (-) TimerEvent: {}
+[3.516790] (-) TimerEvent: {}
+[3.617840] (-) TimerEvent: {}
+[3.718926] (-) TimerEvent: {}
+[3.820099] (-) TimerEvent: {}
+[3.921414] (-) TimerEvent: {}
+[4.022348] (-) TimerEvent: {}
+[4.123138] (-) TimerEvent: {}
+[4.224087] (-) TimerEvent: {}
+[4.324945] (-) TimerEvent: {}
+[4.425548] (-) TimerEvent: {}
+[4.526054] (-) TimerEvent: {}
+[4.627959] (-) TimerEvent: {}
+[4.728976] (-) TimerEvent: {}
+[4.829454] (-) TimerEvent: {}
+[4.930063] (-) TimerEvent: {}
+[5.030589] (-) TimerEvent: {}
+[5.131023] (-) TimerEvent: {}
+[5.231586] (-) TimerEvent: {}
+[5.332087] (-) TimerEvent: {}
+[5.432839] (-) TimerEvent: {}
+[5.533444] (-) TimerEvent: {}
+[5.634062] (-) TimerEvent: {}
+[5.734572] (-) TimerEvent: {}
+[5.835493] (-) TimerEvent: {}
+[5.936128] (-) TimerEvent: {}
+[6.036773] (-) TimerEvent: {}
+[6.137229] (-) TimerEvent: {}
+[6.237788] (-) TimerEvent: {}
+[6.338261] (-) TimerEvent: {}
+[6.438834] (-) TimerEvent: {}
+[6.539436] (-) TimerEvent: {}
+[6.640159] (-) TimerEvent: {}
+[6.741152] (-) TimerEvent: {}
+[6.841959] (-) TimerEvent: {}
+[6.880787] (cpp04_param) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo01_param_server\x1b[0m\n'}
+[6.942186] (-) TimerEvent: {}
+[7.023731] (cpp04_param) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_param_client\x1b[0m\n'}
+[7.042398] (-) TimerEvent: {}
+[7.141130] (cpp04_param) StdoutLine: {'line': b'[100%] Built target demo01_param_server\n'}
+[7.142541] (-) TimerEvent: {}
+[7.242582] (cpp04_param) StdoutLine: {'line': b'[100%] Built target demo01_param_client\n'}
+[7.242923] (-) TimerEvent: {}
+[7.269705] (cpp04_param) CommandEnded: {'returncode': 0}
+[7.271323] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'install'}
+[7.309922] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/exam/build/cpp04_param'], 'cwd': '/home/ros2/exam/build/cpp04_param', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros2'), ('SSH_CLIENT', '192.168.174.1 51167 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/exam/install/demo_interfaces_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2eea4cb4-4baa-48bf-9ee7-8fed114b8274.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d28d503539.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/exam/build/cpp04_param'), ('SSH_CONNECTION', '192.168.174.1 51167 192.168.174.156 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/exam/install/demo_interfaces_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/exam/install/demo_interfaces_base:/opt/ros/humble')]), 'shell': False}
+[7.328043] (cpp04_param) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.328719] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp04_param/lib/cpp04_param/demo01_param_server\n'}
+[7.332058] (cpp04_param) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/exam/install/cpp04_param/lib/cpp04_param/demo01_param_server" to ""\n'}
+[7.332858] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp04_param/lib/cpp04_param/demo01_param_client\n'}
+[7.336845] (cpp04_param) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/exam/install/cpp04_param/lib/cpp04_param/demo01_param_client" to ""\n'}
+[7.337368] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param\n'}
+[7.337503] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param\n'}
+[7.337850] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh\n'}
+[7.337939] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv\n'}
+[7.337988] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/path.sh\n'}
+[7.338040] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/environment/path.dsv\n'}
+[7.338476] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.bash\n'}
+[7.338682] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.sh\n'}
+[7.338824] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.zsh\n'}
+[7.338897] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/local_setup.dsv\n'}
+[7.339395] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/ros2/exam/install/cpp04_param/share/cpp04_param/package.dsv\n'}
+[7.340089] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param\n'}
+[7.340224] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake\n'}
+[7.340336] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake\n'}
+[7.340442] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/exam/install/cpp04_param/share/cpp04_param/package.xml\n'}
+[7.343220] (-) TimerEvent: {}
+[7.344910] (cpp04_param) CommandEnded: {'returncode': 0}
+[7.383848] (cpp04_param) JobEnded: {'identifier': 'cpp04_param', 'rc': 0}
+[7.387007] (-) EventReactorShutdown: {}

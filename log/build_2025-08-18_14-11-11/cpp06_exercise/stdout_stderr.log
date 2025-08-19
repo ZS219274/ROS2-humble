@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target exer02_client[0m
+[35m[1mConsolidate compiler generated dependencies of target exer02_service[0m
+[ 20%] Built target exer01_pub_sub
+[ 40%] Built target exer03_action_client
+[ 50%] [32mBuilding CXX object CMakeFiles/exer03_action_server.dir/src/exer03_action_server.cpp.o[0m
+[ 70%] Built target exer02_service
+[ 90%] Built target exer02_client
+[100%] [32m[1mLinking CXX executable exer03_action_server[0m
+/usr/bin/ld: CMakeFiles/exer03_action_server.dir/src/exer03_action_server.cpp.o: in function `rclcpp_action::Server<demo_interfaces_base::action::Realtimedistance>::Server(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_action_server_options_s const&, std::function<rclcpp_action::GoalResponse (std::array<unsigned char, 16ul> const&, std::shared_ptr<demo_interfaces_base::action::Realtimedistance_Goal_<std::allocator<void> > const>)>, std::function<rclcpp_action::CancelResponse (std::shared_ptr<rclcpp_action::ServerGoalHandle<demo_interfaces_base::action::Realtimedistance> >)>, std::function<void (std::shared_ptr<rclcpp_action::ServerGoalHandle<demo_interfaces_base::action::Realtimedistance> >)>)':
+exer03_action_server.cpp:(.text._ZN13rclcpp_action6ServerIN20demo_interfaces_base6action16RealtimedistanceEEC2ESt10shared_ptrIN6rclcpp15node_interfaces17NodeBaseInterfaceEES5_INS7_18NodeClockInterfaceEES5_INS7_20NodeLoggingInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK27rcl_action_server_options_sSt8functionIFNS_12GoalResponseERKSt5arrayIhLm16EES5_IKNS2_22Realtimedistance_Goal_ISaIvEEEEEESP_IFNS_14CancelResponseES5_INS_16ServerGoalHandleIS3_EEEEESP_IFvS15_EE[_ZN13rclcpp_action6ServerIN20demo_interfaces_base6action16RealtimedistanceEEC5ESt10shared_ptrIN6rclcpp15node_interfaces17NodeBaseInterfaceEES5_INS7_18NodeClockInterfaceEES5_INS7_20NodeLoggingInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK27rcl_action_server_options_sSt8functionIFNS_12GoalResponseERKSt5arrayIhLm16EES5_IKNS2_22Realtimedistance_Goal_ISaIvEEEEEESP_IFNS_14CancelResponseES5_INS_16ServerGoalHandleIS3_EEEEESP_IFvS15_EE]+0x5f): undefined reference to `rosidl_action_type_support_t const* rosidl_typesupport_cpp::get_action_type_support_handle<demo_interfaces_base::action::Realtimedistance>()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/exer03_action_server.dir/build.make:201: exer03_action_server] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/exer03_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,62 @@
+[0.028s] Invoking command in '/home/ros2/exam/build/cpp04_param': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake /home/ros2/exam/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/ros2/exam/install/cpp04_param
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.305s] -- The CXX compiler identification is GNU 11.4.0
+[0.332s] -- Detecting C compiler ABI info
+[0.540s] -- Detecting C compiler ABI info - done
+[0.559s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.559s] -- Detecting C compile features
+[0.560s] -- Detecting C compile features - done
+[0.569s] -- Detecting CXX compiler ABI info
+[0.839s] -- Detecting CXX compiler ABI info - done
+[0.858s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.859s] -- Detecting CXX compile features
+[0.860s] -- Detecting CXX compile features - done
+[0.868s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.381s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.531s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.573s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.578s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.585s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.664s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.666s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.812s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.850s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.909s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.918s] -- Looking for pthread.h
+[2.113s] -- Looking for pthread.h - found
+[2.114s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.276s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.278s] -- Found Threads: TRUE  
+[2.324s] -- Found demo_interfaces_base: 0.0.0 (/home/ros2/exam/install/demo_interfaces_base/share/demo_interfaces_base/cmake)
+[2.338s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.425s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.425s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/exam/cpp04_param/include>
+[2.425s] -- Configured cppcheck exclude dirs and/or files: 
+[2.425s] -- Added test 'lint_cmake' to check CMake code style
+[2.427s] -- Added test 'uncrustify' to check C / C++ code style
+[2.427s] -- Configured uncrustify additional arguments: 
+[2.427s] -- Added test 'xmllint' to check XML markup files
+[2.429s] -- Configuring done
+[2.439s] -- Generating done
+[2.443s] -- Build files have been written to: /home/ros2/exam/build/cpp04_param
+[2.451s] Invoked command in '/home/ros2/exam/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake /home/ros2/exam/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/ros2/exam/install/cpp04_param
+[2.455s] Invoking command in '/home/ros2/exam/build/cpp04_param': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp04_param -- -j12 -l12
+[2.550s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[5.608s] In file included from [01m[K/usr/include/c++/11/memory:66[m[K,
+[5.608s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[5.608s]                  from [01m[K/home/ros2/exam/cpp04_param/src/demo01_param_server.cpp:1[m[K:
+[5.609s] /usr/include/c++/11/bits/stl_uninitialized.h: In instantiation of ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const char*; _ForwardIterator = rclcpp::Parameter*][m[K’:
+[5.609s] [01m[K/usr/include/c++/11/bits/stl_uninitialized.h:333:37:[m[K   required from ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = const char*; _ForwardIterator = rclcpp::Parameter*; _Tp = rclcpp::Parameter][m[K’
+[5.609s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1585:33:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_range_initialize(_ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = const char*; _Tp = rclcpp::Parameter; _Alloc = std::allocator<rclcpp::Parameter>][m[K’
+[5.609s] [01m[K/usr/include/c++/11/bits/stl_vector.h:657:23:[m[K   required from ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = const char*; <template-parameter-2-2> = void; _Tp = rclcpp::Parameter; _Alloc = std::allocator<rclcpp::Parameter>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<rclcpp::Parameter>][m[K’
+[5.609s] [01m[K/home/ros2/exam/cpp04_param/src/demo01_param_server.cpp:34:25:[m[K   required from here
+[5.610s] [01m[K/usr/include/c++/11/bits/stl_uninitialized.h:138:72:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: result type must be constructible from value type of input range
+[5.610s]   138 |       static_assert(is_constructible<_ValueType2, decltype(*__first)>::[01;31m[Kvalue[m[K,
+[5.610s]       |                                                                        [01;31m[K^~~~~[m[K
+[5.610s] [01m[K/usr/include/c++/11/bits/stl_uninitialized.h:138:72:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::integral_constant<bool, false>::value[m[K’ evaluates to false
+[5.834s] gmake[2]: *** [CMakeFiles/demo01_param_server.dir/build.make:76: CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o] Error 1
+[5.834s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_param_server.dir/all] Error 2
+[5.835s] gmake: *** [Makefile:146: all] Error 2
+[5.838s] Invoked command in '/home/ros2/exam/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=/home/ros2/exam/install/demo_interfaces_base:/home/ros2/exam/install/cpp02_service:/home/ros2/exam/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp04_param -- -j12 -l12

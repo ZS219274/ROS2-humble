@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2/exam/build/cpp01_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/exam/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/ros2/exam/install/cpp01_topic
+Invoked command in '/home/ros2/exam/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/exam/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/ros2/exam/install/cpp01_topic
+Invoking command in '/home/ros2/exam/build/cpp01_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp01_topic -- -j12 -l12
+Invoked command in '/home/ros2/exam/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/cpp01_topic -- -j12 -l12
+Invoking command in '/home/ros2/exam/build/cpp01_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp01_topic
+Invoked command in '/home/ros2/exam/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/exam/build/cpp01_topic

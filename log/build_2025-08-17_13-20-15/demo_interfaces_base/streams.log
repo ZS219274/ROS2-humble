@@ -1,0 +1,18 @@
+[0.071s] Invoking command in '/home/ros2/exam/build/demo_interfaces_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/demo_interfaces_base -- -j12 -l12
+[0.120s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.275s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.280s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.379s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.379s]   rosidl_generate_interfaces() the passed file 'srv/Diatance.srv' doesn't
+[0.380s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.380s]   '/home/ros2/exam/demo_interfaces_base'
+[0.380s] Call Stack (most recent call first):
+[0.380s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.380s] 
+[0.380s] [0m
+[0.380s] -- Configuring incomplete, errors occurred!
+[0.380s] See also "/home/ros2/exam/build/demo_interfaces_base/CMakeFiles/CMakeOutput.log".
+[0.384s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.387s] Invoked command in '/home/ros2/exam/build/demo_interfaces_base' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/demo_interfaces_base -- -j12 -l12

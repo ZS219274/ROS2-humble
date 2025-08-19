@@ -1,0 +1,25 @@
+[0.080s] Invoking command in '/home/ros2/exam/build/demo_interfaces_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/demo_interfaces_base -- -j12 -l12
+[0.125s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.270s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.270s]   By not providing "Findrosidl_interface_generators.cmake" in
+[0.270s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.271s]   configuration file provided by "rosidl_interface_generators", but CMake did
+[0.271s]   not find one.
+[0.271s] 
+[0.271s]   Could not find a package configuration file provided by
+[0.271s]   "rosidl_interface_generators" with any of the following names:
+[0.271s] 
+[0.271s]     rosidl_interface_generatorsConfig.cmake
+[0.271s]     rosidl_interface_generators-config.cmake
+[0.271s] 
+[0.271s]   Add the installation prefix of "rosidl_interface_generators" to
+[0.271s]   CMAKE_PREFIX_PATH or set "rosidl_interface_generators_DIR" to a directory
+[0.271s]   containing one of the above files.  If "rosidl_interface_generators"
+[0.271s]   provides a separate development package or SDK, be sure it has been
+[0.271s]   installed.
+[0.271s] 
+[0.271s] [0m
+[0.271s] -- Configuring incomplete, errors occurred!
+[0.271s] See also "/home/ros2/exam/build/demo_interfaces_base/CMakeFiles/CMakeOutput.log".
+[0.273s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.276s] Invoked command in '/home/ros2/exam/build/demo_interfaces_base' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/exam/build/demo_interfaces_base -- -j12 -l12
