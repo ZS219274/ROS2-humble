@@ -19,6 +19,7 @@ add_executable(exer02_service src/exer02_service.cpp)
 add_executable(exer02_client src/exer02_client.cpp)
 add_executable(exer03_action_client src/exer03_action_client.cpp)
 add_executable(exer03_action_server src/exer03_action_server.cpp)
+add_executable(exer04_param src/exer04_param.cpp)
 target_include_directories(exer01_pub_sub PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
@@ -73,12 +74,23 @@ ament_target_dependencies(
   "rclcpp_action"
 )
 
+ament_target_dependencies(
+  exer04_param
+  "rclcpp"
+  "rclpy"
+  "demo_interfaces_base"
+  "turtlesim"
+  "geometry_msgs"
+  "rclcpp_action"
+)
+
 install(TARGETS
   exer01_pub_sub
   exer02_client
   exer02_service
   exer03_action_client
   exer03_action_server
+  exer04_param
   DESTINATION lib/${PROJECT_NAME})
 install(DIRECTORY launch 
   DESTINATION share/${PROJECT_NAME})

@@ -1,5 +1,0 @@
-/home/ros2/exam/build/demo_interfaces_base/rosidl_adapter/demo_interfaces_base:msg/Student.idl
-/home/ros2/exam/build/demo_interfaces_base/rosidl_adapter/demo_interfaces_base:srv/Calculation.idl
-/home/ros2/exam/build/demo_interfaces_base/rosidl_adapter/demo_interfaces_base:srv/Distance.idl
-/home/ros2/exam/build/demo_interfaces_base/rosidl_adapter/demo_interfaces_base:action/Action.idl
-/home/ros2/exam/build/demo_interfaces_base/rosidl_adapter/demo_interfaces_base:action/RealTimeDistance.idl
